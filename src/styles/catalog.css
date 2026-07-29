@@ -1,0 +1,698 @@
+.page-gear,
+.page-tarot {
+  --ink: #3d372e;
+  --muted: #746c60;
+  --navy: #36425d;
+  --navy-deep: #29344d;
+  --gold: #c8aa57;
+  --gold-pale: #eadba9;
+  --cream: #f7f2e5;
+  --panel: rgba(252, 249, 239, .94);
+  --line: rgba(92, 79, 56, .23);
+  --legendary: #c79b39;
+  --epic: #9d63b8;
+  --rare: #4f8db7;
+  --common: #7b8d80;
+}
+
+.page-gear *,
+.page-tarot * { box-sizing: border-box; }
+.page-gear,
+.page-tarot { min-height: 100%; }
+.page-gear,
+.page-tarot {
+  min-height: 100%;
+  margin: 0;
+  color: var(--ink);
+  background: #ece8dc;
+  font-family: Georgia, "Times New Roman", serif;
+}
+.page-gear button,
+.page-tarot button,
+.page-gear input,
+.page-tarot input { font: inherit; }
+.page-gear button,
+.page-tarot button { color: inherit; }
+
+.page-gear .catalog-screen,
+.page-tarot .catalog-screen {
+  position: relative;
+  min-height: 100vh;
+  padding: 0 clamp(18px, 4vw, 66px) 64px;
+  isolation: isolate;
+}
+.page-gear .catalog-background,
+.page-tarot .catalog-background {
+  position: fixed;
+  inset: 0;
+  z-index: -2;
+  background:
+    radial-gradient(circle at 50% 6%, rgba(255,255,255,.9), transparent 38%),
+    linear-gradient(rgba(249,247,238,.95), rgba(239,235,222,.97)),
+    repeating-linear-gradient(0deg, transparent 0 44px, rgba(91,76,53,.025) 45px 46px),
+    repeating-linear-gradient(90deg, transparent 0 126px, rgba(91,76,53,.02) 127px 128px);
+}
+.page-gear .catalog-background::after,
+.page-tarot .catalog-background::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  opacity: .48;
+  background:
+    radial-gradient(ellipse at 10% 86%, rgba(157,132,88,.13), transparent 25%),
+    radial-gradient(ellipse at 92% 13%, rgba(88,103,135,.10), transparent 24%);
+}
+
+.page-gear .catalog-title-band,
+.page-tarot .catalog-title-band {
+  width: min(880px, calc(100% + clamp(18px, 4vw, 66px)));
+  min-height: 72px;
+  margin-left: calc(-1 * clamp(18px, 4vw, 66px));
+  padding: 12px 70px 12px clamp(24px, 5vw, 78px);
+  display: flex;
+  align-items: center;
+  color: #fff8df;
+  background: linear-gradient(135deg, rgba(68,84,113,.99), rgba(42,53,77,.99));
+  clip-path: polygon(0 0, 100% 0, calc(100% - 58px) 100%, 0 100%);
+  box-shadow: 0 5px 14px rgba(43,49,62,.18);
+}
+.page-gear .catalog-title-band h1,
+.page-tarot .catalog-title-band h1 {
+  margin: 0;
+  font: 700 clamp(28px, 3.5vw, 48px)/1 "Cinzel", Georgia, serif;
+  letter-spacing: -.025em;
+  text-shadow: 0 2px 2px rgba(0,0,0,.25);
+}
+
+.page-gear .page-tabs,
+.page-tarot .page-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 14px 0 0;
+}
+.page-gear .page-tab,
+.page-tarot .page-tab {
+  min-height: 38px;
+  padding: 8px 16px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: #4c453a;
+  border: 1px solid rgba(86,72,50,.25);
+  border-radius: 5px 13px 5px 13px;
+  background: rgba(255,252,242,.84);
+  text-decoration: none;
+  font: 700 12px/1 "Libre Baskerville", Georgia, serif;
+  box-shadow: inset 0 1px rgba(255,255,255,.9);
+}
+.page-gear .page-tab:hover,
+.page-tarot .page-tab:hover,
+.page-gear .page-tab:focus-visible,
+.page-tarot .page-tab:focus-visible { border-color: #9d8a51; outline: none; }
+.page-gear .page-tab[aria-current="page"],
+.page-tarot .page-tab[aria-current="page"] {
+  color: #fff7da;
+  border-color: #29344d;
+  background: linear-gradient(135deg, #465570, #29344d);
+}
+.page-gear .page-tab-symbol,
+.page-tarot .page-tab-symbol { color: var(--gold); font-size: 16px; }
+
+.page-gear .catalog-filter-bar,
+.page-tarot .catalog-filter-bar {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  display: grid;
+  grid-template-columns: minmax(230px, 1.55fr) repeat(3, minmax(170px, 1fr));
+  gap: 12px;
+  margin: 18px 0 14px;
+  padding: 14px;
+  border: 1px solid rgba(69,61,49,.17);
+  border-radius: 6px 18px 6px 18px;
+  background: rgba(248,245,235,.95);
+  box-shadow: 0 12px 28px rgba(65,55,42,.12), inset 0 1px rgba(255,255,255,.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+.page-gear .filter-field,
+.page-tarot .filter-field { position: relative; display: grid; gap: 6px; min-width: 0; }
+.page-gear .filter-field > span,
+.page-tarot .filter-field > span {
+  color: var(--muted);
+  font: 700 10px/1.2 "Libre Baskerville", serif;
+  letter-spacing: .11em;
+  text-transform: uppercase;
+}
+.page-gear .filter-field input,
+.page-tarot .filter-field input,
+.page-gear .multi-select > summary,
+.page-tarot .multi-select > summary {
+  width: 100%;
+  min-height: 42px;
+  padding: 9px 12px;
+  color: #403a32;
+  border: 1px solid rgba(80,68,49,.25);
+  border-radius: 5px 12px 5px 12px;
+  background: rgba(255,253,246,.97);
+  outline: none;
+  box-shadow: inset 0 1px 3px rgba(61,52,39,.06);
+}
+.page-gear .filter-field input:focus,
+.page-tarot .filter-field input:focus,
+.page-gear .multi-select[open] > summary,
+.page-tarot .multi-select[open] > summary,
+.page-gear .multi-select > summary:focus-visible,
+.page-tarot .multi-select > summary:focus-visible {
+  border-color: #9d8a51;
+  box-shadow: 0 0 0 3px rgba(190,165,91,.17);
+}
+.page-gear .multi-select,
+.page-tarot .multi-select { position: relative; }
+.page-gear .multi-select > summary,
+.page-tarot .multi-select > summary {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  cursor: pointer;
+  user-select: none;
+}
+.page-gear .multi-select > summary::-webkit-details-marker,
+.page-tarot .multi-select > summary::-webkit-details-marker { display: none; }
+.page-gear .filter-summary-content,
+.page-tarot .filter-summary-content { min-width: 0; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
+.page-gear .filter-chevron,
+.page-tarot .filter-chevron { color: #8a7543; font-size: 18px; transition: transform .16s ease; }
+.page-gear .multi-select[open] .filter-chevron,
+.page-tarot .multi-select[open] .filter-chevron { transform: rotate(180deg); }
+.page-gear .multi-select-menu,
+.page-tarot .multi-select-menu {
+  position: absolute;
+  z-index: 50;
+  top: calc(100% + 7px);
+  left: 0;
+  width: max(100%, 230px);
+  max-height: 310px;
+  overflow: auto;
+  padding: 7px;
+  border: 1px solid rgba(79,67,48,.24);
+  border-radius: 8px 18px 8px 18px;
+  background: rgba(255,253,247,.99);
+  box-shadow: 0 18px 36px rgba(55,46,34,.20);
+}
+.page-gear .multi-option,
+.page-tarot .multi-option {
+  display: grid;
+  grid-template-columns: 20px 30px minmax(0, 1fr);
+  gap: 8px;
+  align-items: center;
+  min-height: 40px;
+  padding: 6px 8px;
+  border-radius: 5px 11px 5px 11px;
+  cursor: pointer;
+}
+.page-gear .multi-option:hover,
+.page-tarot .multi-option:hover { background: rgba(79,77,116,.08); }
+.page-gear .multi-option input,
+.page-tarot .multi-option input { width: 16px; height: 16px; margin: 0; accent-color: #4f4d74; }
+.page-gear .option-symbol,
+.page-tarot .option-symbol {
+  width: 30px;
+  height: 30px;
+  display: grid;
+  place-items: center;
+  color: #5c4f38;
+  border-radius: 50%;
+  background: rgba(224,211,171,.42);
+  font-weight: 700;
+}
+.page-gear .option-name,
+.page-tarot .option-name { min-width: 0; font-size: 13px; }
+
+.page-gear .catalog-status,
+.page-tarot .catalog-status {
+  min-height: 30px;
+  margin: 0 3px 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--muted);
+  font-size: 12px;
+}
+.page-gear .catalog-count,
+.page-tarot .catalog-count { font-weight: 700; }
+
+.page-gear .item-grid,
+.page-tarot .item-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+  gap: 24px 18px;
+}
+.page-gear .item-card,
+.page-tarot .item-card {
+  position: relative;
+  min-height: 246px;
+  padding: 14px 14px 12px;
+  display: grid;
+  grid-template-rows: 1fr auto auto;
+  gap: 8px;
+  overflow: hidden;
+  border: 1px solid rgba(78,67,49,.20);
+  border-radius: 12px 28px 12px 28px;
+  background:
+    linear-gradient(180deg, rgba(255,253,246,.97), rgba(241,235,218,.96));
+  box-shadow: inset 0 1px rgba(255,255,255,.92), 0 10px 22px rgba(66,55,42,.11);
+  cursor: pointer;
+  transition: transform .16s ease, box-shadow .16s ease, border-color .16s ease;
+}
+.page-gear .item-card::before,
+.page-tarot .item-card::before {
+  content: "";
+  position: absolute;
+  inset: 0 0 auto;
+  height: 5px;
+  background: var(--rarity-color, #8a8a7a);
+}
+.page-gear .item-card:hover,
+.page-tarot .item-card:hover,
+.page-gear .item-card:focus-visible,
+.page-tarot .item-card:focus-visible {
+  transform: translateY(-4px);
+  border-color: color-mix(in srgb, var(--rarity-color, #9d8a51) 70%, #695e4e);
+  box-shadow: inset 0 1px rgba(255,255,255,.96), 0 16px 30px rgba(66,55,42,.17);
+  outline: none;
+}
+.page-gear .item-card[data-rarity="Legendary"],
+.page-tarot .item-card[data-rarity="Legendary"] { --rarity-color: var(--legendary); }
+.page-gear .item-card[data-rarity="Epic"],
+.page-tarot .item-card[data-rarity="Epic"] { --rarity-color: var(--epic); }
+.page-gear .item-card[data-rarity="Rare"],
+.page-tarot .item-card[data-rarity="Rare"] { --rarity-color: var(--rare); }
+.page-gear .item-card[data-rarity="Common"],
+.page-tarot .item-card[data-rarity="Common"],
+.page-gear .item-card[data-rarity="Normal"],
+.page-tarot .item-card[data-rarity="Normal"] { --rarity-color: var(--common); }
+
+.page-gear .item-badges,
+.page-tarot .item-badges {
+  position: absolute;
+  z-index: 3;
+  top: 12px;
+  left: 12px;
+  right: 12px;
+  display: flex;
+  justify-content: space-between;
+  pointer-events: none;
+}
+.page-gear .symbol-badge,
+.page-tarot .symbol-badge {
+  min-width: 32px;
+  height: 32px;
+  padding: 0 8px;
+  display: grid;
+  place-items: center;
+  color: #fff7da;
+  border: 1px solid rgba(255,255,255,.75);
+  border-radius: 7px 13px 7px 13px;
+  background: linear-gradient(135deg, #465570, #29344d);
+  box-shadow: 0 3px 8px rgba(52,46,38,.18);
+  font: 700 15px/1 Georgia, serif;
+}
+.page-gear .signature-badge,
+.page-tarot .signature-badge { color: #5a4213; background: linear-gradient(135deg, #fff0a9, #c79b39); }
+
+.page-gear .item-icon-stage,
+.page-tarot .item-icon-stage {
+  min-height: 164px;
+  display: grid;
+  place-items: center;
+  padding-top: 24px;
+}
+.page-gear .item-icon-wrap,
+.page-tarot .item-icon-wrap {
+  width: 132px;
+  height: 132px;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  border-radius: 24px 42px 24px 42px;
+  background:
+    radial-gradient(circle at 50% 42%, rgba(255,255,255,.88), rgba(226,216,190,.8) 55%, rgba(56,65,87,.22) 100%);
+  box-shadow: inset 0 0 0 2px rgba(255,255,255,.75), 0 8px 18px rgba(66,55,42,.15);
+}
+.page-gear .item-icon-wrap img,
+.page-tarot .item-icon-wrap img { width: 100%; height: 100%; object-fit: contain; }
+.page-gear .item-icon-fallback,
+.page-tarot .item-icon-fallback { color: #7c6933; font: 700 42px/1 "Cinzel", serif; }
+.page-gear .item-name,
+.page-tarot .item-name {
+  margin: 0;
+  color: #4c4438;
+  font: 700 17px/1.2 "Libre Baskerville", Georgia, serif;
+  text-align: center;
+}
+.page-gear .item-meta,
+.page-tarot .item-meta {
+  min-height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+}
+.page-gear .meta-symbol,
+.page-tarot .meta-symbol {
+  min-width: 25px;
+  height: 25px;
+  padding: 0 6px;
+  display: grid;
+  place-items: center;
+  color: #5b503e;
+  border: 1px solid rgba(95,79,52,.20);
+  border-radius: 50%;
+  background: rgba(255,250,233,.85);
+  font-size: 13px;
+}
+
+.page-gear .tarot-card,
+.page-tarot .tarot-card { min-height: 286px; }
+.page-gear .tarot-card .item-icon-stage,
+.page-tarot .tarot-card .item-icon-stage { min-height: 205px; }
+.page-gear .tarot-emblem,
+.page-tarot .tarot-emblem {
+  position: relative;
+  width: 126px;
+  height: 176px;
+  display: grid;
+  place-items: center;
+  color: #f6e9b8;
+  border: 2px solid #bca05b;
+  border-radius: 10px 28px 10px 28px;
+  background:
+    radial-gradient(circle at 50% 38%, rgba(219,195,111,.35), transparent 31%),
+    linear-gradient(145deg, #39445f, #20293f 76%);
+  box-shadow: inset 0 0 0 4px rgba(255,245,205,.08), 0 9px 20px rgba(41,39,42,.20);
+}
+.page-gear .tarot-emblem::before,
+.page-tarot .tarot-emblem::before,
+.page-gear .tarot-emblem::after,
+.page-tarot .tarot-emblem::after {
+  content: "✦";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  color: rgba(234,213,139,.68);
+  font-size: 18px;
+}
+.page-gear .tarot-emblem::before,
+.page-tarot .tarot-emblem::before { top: 14px; }
+.page-gear .tarot-emblem::after,
+.page-tarot .tarot-emblem::after { bottom: 13px; }
+.page-gear .tarot-roman,
+.page-tarot .tarot-roman { font: 700 40px/1 "Cinzel", serif; text-shadow: 0 2px 4px rgba(0,0,0,.35); }
+.page-gear .tarot-code,
+.page-tarot .tarot-code { position: absolute; bottom: 37px; max-width: 100px; color: rgba(247,237,203,.72); font-size: 9px; letter-spacing: .08em; text-align: center; text-transform: uppercase; }
+
+.page-gear .empty-state,
+.page-tarot .empty-state { margin: 70px auto 0; color: var(--muted); text-align: center; font-size: 17px; }
+
+.page-gear .catalog-modal,
+.page-tarot .catalog-modal {
+  width: min(900px, calc(100vw - 28px));
+  max-height: min(780px, calc(100vh - 28px));
+  padding: 0;
+  overflow: hidden;
+  color: #eee7d4;
+  border: 1px solid rgba(223,198,115,.75);
+  border-radius: 12px 28px 12px 28px;
+  background: #303643;
+  box-shadow: 0 28px 90px rgba(16,18,24,.55);
+}
+.page-gear .catalog-modal::backdrop,
+.page-tarot .catalog-modal::backdrop { background: rgba(19,22,29,.62); backdrop-filter: blur(4px); }
+.page-gear .modal-shell,
+.page-tarot .modal-shell { min-height: 0; max-height: inherit; display: grid; grid-template-rows: auto minmax(0, 1fr); }
+.page-gear .modal-header,
+.page-tarot .modal-header {
+  min-height: 72px;
+  padding: 15px 18px 13px 22px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  color: #332d24;
+  background: linear-gradient(90deg, #e6d597, #f5edce 72%, #d1b866);
+}
+.page-gear .modal-kicker,
+.page-tarot .modal-kicker { margin: 0 0 4px; color: #6b5d3d; font: 700 10px/1 "Libre Baskerville", serif; letter-spacing: .12em; text-transform: uppercase; }
+.page-gear .modal-title,
+.page-tarot .modal-title { margin: 0; font: 700 clamp(21px, 3vw, 30px)/1.1 "Cinzel", serif; }
+.page-gear .modal-close,
+.page-tarot .modal-close {
+  width: 40px;
+  height: 40px;
+  border: 1px solid rgba(70,58,35,.24);
+  border-radius: 50%;
+  background: rgba(255,253,244,.72);
+  font-size: 27px;
+  cursor: pointer;
+}
+.page-gear .modal-body,
+.page-tarot .modal-body { min-height: 0; overflow: auto; padding: 22px; }
+.page-gear .detail-layout,
+.page-tarot .detail-layout { display: grid; grid-template-columns: 190px minmax(0, 1fr); gap: 24px; align-items: start; }
+.page-gear .detail-visual,
+.page-tarot .detail-visual { position: sticky; top: 0; display: grid; gap: 12px; justify-items: center; }
+.page-gear .detail-icon-wrap,
+.page-tarot .detail-icon-wrap {
+  width: 168px;
+  height: 168px;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  border: 1px solid rgba(235,211,135,.65);
+  border-radius: 18px 38px 18px 38px;
+  background: radial-gradient(circle, rgba(255,255,255,.17), rgba(12,19,34,.35));
+  box-shadow: inset 0 0 0 4px rgba(255,255,255,.04);
+}
+.page-gear .detail-icon-wrap img,
+.page-tarot .detail-icon-wrap img { width: 100%; height: 100%; object-fit: contain; }
+.page-gear .detail-icon-wrap .tarot-emblem,
+.page-tarot .detail-icon-wrap .tarot-emblem { transform: scale(.92); }
+.page-gear .detail-rarity,
+.page-tarot .detail-rarity { color: #e5d18b; font: 700 12px/1 "Libre Baskerville", serif; letter-spacing: .08em; text-transform: uppercase; }
+.page-gear .detail-content,
+.page-tarot .detail-content { min-width: 0; display: grid; gap: 16px; }
+.page-gear .detail-symbol-row,
+.page-tarot .detail-symbol-row { display: flex; flex-wrap: wrap; gap: 8px; }
+.page-gear .detail-chip,
+.page-tarot .detail-chip {
+  min-height: 30px;
+  padding: 7px 10px;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: #f3ebd3;
+  border: 1px solid rgba(223,198,115,.27);
+  border-radius: 5px 12px 5px 12px;
+  background: rgba(255,255,255,.055);
+  font-size: 12px;
+}
+.page-gear .detail-section,
+.page-tarot .detail-section {
+  padding: 15px 16px;
+  border: 1px solid rgba(223,198,115,.22);
+  border-radius: 7px 17px 7px 17px;
+  background: rgba(13,18,29,.22);
+}
+.page-gear .detail-section h3,
+.page-tarot .detail-section h3 { margin: 0 0 10px; color: #e8d494; font: 700 13px/1.2 "Libre Baskerville", serif; letter-spacing: .05em; text-transform: uppercase; }
+.page-gear .detail-section p,
+.page-tarot .detail-section p { margin: 0; font-size: 14px; line-height: 1.7; }
+.page-gear .detail-section p + p,
+.page-tarot .detail-section p + p { margin-top: 10px; }
+.page-gear .star-selector,
+.page-tarot .star-selector { display: flex; flex-wrap: wrap; gap: 7px; }
+.page-gear .star-button,
+.page-tarot .star-button {
+  min-width: 46px;
+  height: 36px;
+  border: 1px solid rgba(225,201,123,.35);
+  border-radius: 5px 11px 5px 11px;
+  color: #e8d18a;
+  background: rgba(255,255,255,.055);
+  cursor: pointer;
+}
+.page-gear .star-button.active,
+.page-tarot .star-button.active { color: #2f2a21; border-color: #e5ca75; background: linear-gradient(135deg, #f2df9e, #c6a552); }
+.page-gear .effect-panel,
+.page-tarot .effect-panel { min-height: 132px; }
+.page-gear .effect-empty,
+.page-tarot .effect-empty { color: rgba(238,231,212,.55); font-style: italic; }
+.page-gear .stat-grid,
+.page-tarot .stat-grid { display: grid; grid-template-columns: repeat(3, minmax(0,1fr)); gap: 8px; }
+.page-gear .stat-card,
+.page-tarot .stat-card { padding: 9px; text-align: center; border: 1px solid rgba(223,198,115,.18); border-radius: 5px 11px 5px 11px; background: rgba(255,255,255,.04); }
+.page-gear .stat-card span,
+.page-tarot .stat-card span { display: block; color: #bdb49e; font-size: 10px; }
+.page-gear .stat-card strong,
+.page-tarot .stat-card strong { display: block; margin-top: 4px; color: #f2e6c6; }
+
+@media (max-width: 980px) {
+  .page-gear .catalog-filter-bar,
+.page-tarot .catalog-filter-bar { grid-template-columns: 1fr 1fr; }
+  .page-gear .search-field,
+.page-tarot .search-field { grid-column: 1 / -1; }
+  .page-gear .item-grid,
+.page-tarot .item-grid { grid-template-columns: repeat(auto-fill, minmax(165px, 1fr)); }
+}
+@media (max-width: 660px) {
+  .page-gear .catalog-screen,
+.page-tarot .catalog-screen { padding-inline: 14px; }
+  .page-gear .catalog-title-band,
+.page-tarot .catalog-title-band { width: calc(100% + 14px); margin-left: -14px; min-height: 62px; padding-left: 18px; }
+  .page-gear .catalog-title-band h1,
+.page-tarot .catalog-title-band h1 { font-size: 27px; }
+  .page-gear .catalog-filter-bar,
+.page-tarot .catalog-filter-bar { grid-template-columns: 1fr; }
+  .page-gear .search-field,
+.page-tarot .search-field { grid-column: auto; }
+  .page-gear .multi-select-menu,
+.page-tarot .multi-select-menu { width: 100%; }
+  .page-gear .item-grid,
+.page-tarot .item-grid { grid-template-columns: repeat(2, minmax(0,1fr)); gap: 14px 10px; }
+  .page-gear .item-card,
+.page-tarot .item-card { min-height: 218px; padding-inline: 9px; }
+  .page-gear .item-icon-stage,
+.page-tarot .item-icon-stage { min-height: 142px; }
+  .page-gear .item-icon-wrap,
+.page-tarot .item-icon-wrap { width: 108px; height: 108px; }
+  .page-gear .item-name,
+.page-tarot .item-name { font-size: 13px; }
+  .page-gear .tarot-card,
+.page-tarot .tarot-card { min-height: 252px; }
+  .page-gear .tarot-card .item-icon-stage,
+.page-tarot .tarot-card .item-icon-stage { min-height: 178px; }
+  .page-gear .tarot-emblem,
+.page-tarot .tarot-emblem { width: 104px; height: 150px; }
+  .page-gear .detail-layout,
+.page-tarot .detail-layout { grid-template-columns: 1fr; }
+  .page-gear .detail-visual,
+.page-tarot .detail-visual { position: static; }
+  .page-gear .detail-icon-wrap,
+.page-tarot .detail-icon-wrap { width: 138px; height: 138px; }
+  .page-gear .stat-grid,
+.page-tarot .stat-grid { grid-template-columns: repeat(2, minmax(0,1fr)); }
+}
+.page-gear .pre-line,
+.page-tarot .pre-line { white-space: pre-line; }
+.page-gear .tarot-emblem-compact,
+.page-tarot .tarot-emblem-compact { transform: scale(.92); }
+.page-gear .tarot-image,
+.page-tarot .tarot-image {
+  width: 126px;
+  height: 176px;
+  object-fit: contain;
+  filter: drop-shadow(0 9px 12px rgba(41,39,42,.22));
+}
+.page-gear .tarot-image-compact,
+.page-tarot .tarot-image-compact { width: 142px; height: 196px; }
+.page-gear .signature-badge[hidden],
+.page-tarot .signature-badge[hidden] { display: none; }
+
+/* Main effects stay compact; referenced terms reveal definitions inline. */
+.page-gear .effect-panel,
+.page-tarot .effect-panel {
+  max-height: min(470px, calc(100vh - 330px));
+  margin-top: 12px;
+  padding-right: 5px;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(226, 198, 111, .62) rgba(255, 255, 255, .05);
+}
+.page-gear .effect-panel::-webkit-scrollbar,
+.page-tarot .effect-panel::-webkit-scrollbar { width: 8px; }
+.page-gear .effect-panel::-webkit-scrollbar-track,
+.page-tarot .effect-panel::-webkit-scrollbar-track { background: rgba(255,255,255,.04); border-radius: 999px; }
+.page-gear .effect-panel::-webkit-scrollbar-thumb,
+.page-tarot .effect-panel::-webkit-scrollbar-thumb { background: rgba(226,198,111,.55); border-radius: 999px; }
+.page-gear .effect-primary-copy,
+.page-tarot .effect-primary-copy { padding: 2px 1px 4px; color: #f4edda; }
+.page-gear .interactive-effect-copy,
+.page-tarot .interactive-effect-copy { white-space: pre-line; }
+.page-gear .effect-primary-copy .interactive-effect-copy,
+.page-tarot .effect-primary-copy .interactive-effect-copy { font-size: 14px; line-height: 1.72; }
+@media (max-width: 660px) { .page-gear .effect-panel,
+.page-tarot .effect-panel { max-height: 440px; } }
+
+.page-gear .level-selector,
+.page-tarot .level-selector {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 10px 0 14px;
+}
+.page-gear .level-selector button,
+.page-tarot .level-selector button {
+  min-width: 48px;
+  min-height: 36px;
+  padding: 7px 10px;
+  color: #5d5037;
+  border: 1px solid rgba(104,84,50,.28);
+  border-radius: 6px 12px 6px 12px;
+  background: rgba(255,251,237,.82);
+  cursor: pointer;
+}
+.page-gear .level-selector button.selected,
+.page-tarot .level-selector button.selected {
+  color: #fff6d5;
+  border-color: #3b4662;
+  background: linear-gradient(145deg,#52607d,#303a55);
+  box-shadow: inset 0 0 0 2px rgba(225,201,133,.18);
+}
+.page-gear .detail-stat-grid,
+.page-tarot .detail-stat-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+/* React catalog modal sizing reconciliation. */
+.page-gear .catalog-modal,
+.page-tarot .catalog-modal {
+  width: min(900px, calc(100vw - 28px));
+  max-width: none;
+  max-height: min(780px, calc(100dvh - 28px));
+}
+
+.page-gear .catalog-modal > .modal-shell,
+.page-tarot .catalog-modal > .modal-shell {
+  width: 100%;
+  min-width: 0;
+  min-height: 0;
+  max-height: inherit;
+  overflow: hidden;
+}
+
+.page-gear .catalog-modal > .modal-shell > .modal-body,
+.page-tarot .catalog-modal > .modal-shell > .modal-body {
+  min-width: 0;
+  min-height: 0;
+  overflow: auto;
+}
+
+@media (max-width: 700px) {
+  .page-gear .catalog-modal,
+  .page-tarot .catalog-modal {
+    width: calc(100vw - 12px);
+    max-height: calc(100dvh - 12px);
+  }
+
+  .page-gear .catalog-modal .modal-body,
+  .page-tarot .catalog-modal .modal-body {
+    padding: 14px;
+  }
+}

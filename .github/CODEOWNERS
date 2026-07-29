@@ -1,0 +1,8 @@
+# Default ownership
+* @draglide
+
+# Application and data ownership
+/src/ @draglide
+/public/data/ @draglide
+/scripts/ @draglide
+/.github/workflows/ @draglide

@@ -1,0 +1,23 @@
+name: New character request
+description: Track adding a missing character record.
+title: "[Character]: "
+labels: ["character", "data"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Character name
+    validations:
+      required: true
+  - type: input
+    id: region-version
+    attributes:
+      label: Region and game version
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Sources and available assets
+    validations:
+      required: true

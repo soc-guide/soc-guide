@@ -1,0 +1,7 @@
+The maintained repository tree is generated in:
+
+  docs/FILE_TREE.txt
+
+Run this command from the repository root after structural changes:
+
+  find . -path './node_modules' -prune -o -path './dist' -prune -o -type f -print | sort > docs/FILE_TREE.txt

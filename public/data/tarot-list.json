@@ -1,0 +1,629 @@
+{
+  "source": {
+    "spreadsheetId": "1xizGBhuAb6ZvsoZ49dfSFcCf3EjOX1JramFsXAZLbsU",
+    "sheet": "Tarot",
+    "snapshotDate": "2026-07-29"
+  },
+  "usage": [
+    "General - PVE",
+    "PVP",
+    "Situational"
+  ],
+  "purposes": [
+    "Cheese",
+    "Damage Dealer",
+    "Other",
+    "Support",
+    "Tank"
+  ],
+  "slot4Types": [
+    "Special Effect",
+    "Stats"
+  ],
+  "items": [
+    {
+      "id": "TAROT-001",
+      "slug": "dream-of-the-magician",
+      "name": "Dream of the Magician",
+      "iconCode": "The-Magician",
+      "icon": "",
+      "usage": [
+        "PVP",
+        "General - PVE"
+      ],
+      "effect": "Increases DMG dealt by 8%. When casting skills, for each additional hit on 1 enemy, the DMG dealt increases by 4%, up to 12%.",
+      "slot4Effect": "Changes the effect of [Tarot Whisper Skill] into: Increases DMG dealt by 16%. When casting skills, for each additional hit on 1 enemy, the DMG dealt increases by 8%, up to 24%.",
+      "slot4Types": [
+        "Special Effect"
+      ],
+      "purposes": [
+        "Damage Dealer"
+      ],
+      "recommendedFor": "AoE DPS",
+      "tags": [
+        "Tarot Whisper Skill"
+      ],
+      "detailInfo": []
+    },
+    {
+      "id": "TAROT-002",
+      "slug": "the-fools-naivety",
+      "name": "The Fool’s Naivety",
+      "iconCode": "The-Fool",
+      "icon": "",
+      "usage": [
+        "PVP",
+        "General - PVE"
+      ],
+      "effect": "HP is increased by 10%. When initiating an active attack, if the character’s max HP is greater than the target’s, DMG dealt is increased by 10%.",
+      "slot4Effect": "HP is additionally increased by 10%. When initiating an active attack, if the character's HP percentage is greater than the target's, DMG delat is increased by 10%",
+      "slot4Types": [
+        "Special Effect"
+      ],
+      "purposes": [
+        "Tank",
+        "Damage Dealer",
+        "Support"
+      ],
+      "recommendedFor": "Cocoa, Leonide, Guzman, Agatha, Kiya\n(Any unit Scalling with HP)",
+      "tags": [],
+      "detailInfo": []
+    },
+    {
+      "id": "TAROT-003",
+      "slug": "mercy-of-the-high-priestess",
+      "name": "Mercy of The High Priestess",
+      "iconCode": "The-High-Priestess",
+      "icon": "",
+      "usage": [
+        "PVP",
+        "Situational"
+      ],
+      "effect": "Increases healing effect by 15%.",
+      "slot4Effect": "Increases healing effect by 15% additionally. If the target is [Dying], the healing effect further increases by 15%",
+      "slot4Types": [
+        "Special Effect"
+      ],
+      "purposes": [
+        "Support"
+      ],
+      "recommendedFor": "Samantha, Inanna, Taiir, Saffiyah Alter, Aphra\n(Healer or Off-healer)",
+      "tags": [
+        "Dying"
+      ],
+      "detailInfo": [
+        {
+          "name": "Dying",
+          "detail": "[State] When HP is below 30%, reduces DMG dealt by 30% and increases DMG taken by 30%."
+        }
+      ]
+    },
+    {
+      "id": "TAROT-004",
+      "slug": "elegance-of-the-empress",
+      "name": "Elegance of the Empress",
+      "iconCode": "The-Empress",
+      "icon": "",
+      "usage": [
+        "PVP",
+        "Situational"
+      ],
+      "effect": "After casting a skill on an ally, convert 1 [debuff] on the target into a [Level 1 Buff] that lasts for 2 turns.",
+      "slot4Effect": "After casting a skill on an ally, additionally convert 1 [debuff] on the target into a [Level 1 Buff] that lasts for 2 turns.",
+      "slot4Types": [
+        "Special Effect",
+        "Stats"
+      ],
+      "purposes": [
+        "Support"
+      ],
+      "recommendedFor": "Samantha, Inanna, Taiir, Gloria\n(Recomended for PvP only)",
+      "tags": [
+        "debuff",
+        "Level 1 Buff"
+      ],
+      "detailInfo": [
+        {
+          "name": "Level 1 Buff",
+          "detail": "Buff: Including [△ ATK I], [△ Crit I], [△ P.DEF I], [△ M. DEF I], [△ Healing I]."
+        }
+      ]
+    },
+    {
+      "id": "TAROT-005",
+      "slug": "majesty-of-the-emperor",
+      "name": "Majesty of the Emperor",
+      "iconCode": "The-Emperor",
+      "icon": "",
+      "usage": [
+        "PVP"
+      ],
+      "effect": "DMG increases by 10% when attacking [Healthy] enemies.",
+      "slot4Effect": "DMG dealt increases by 15% additionally when attacking [Healthy] enemies.",
+      "slot4Types": [
+        "Special Effect"
+      ],
+      "purposes": [
+        "Damage Dealer",
+        "Cheese"
+      ],
+      "recommendedFor": "Assassin / any damage delear relies on 1 shotting, recomended for PvP only. Niche use on PvE like UD / VoD",
+      "tags": [
+        "Healthy"
+      ],
+      "detailInfo": [
+        {
+          "name": "Healthy",
+          "detail": "[State] Activated when HP is no less than 70%."
+        }
+      ]
+    },
+    {
+      "id": "TAROT-006",
+      "slug": "hierophants-laws",
+      "name": "Hierophant’s Laws",
+      "iconCode": "The-Hierophant",
+      "icon": "",
+      "usage": [
+        "PVP",
+        "Situational"
+      ],
+      "effect": "[AoE DMG] taken is decreased by 20%.",
+      "slot4Effect": "When initiating a single-target attack, DMG dealt is increased by 20%. WHen initiating a single-target healing, the healing amount is increased by 20%.",
+      "slot4Types": [
+        "Special Effect"
+      ],
+      "purposes": [
+        "Support",
+        "Damage Dealer"
+      ],
+      "recommendedFor": "Beryl\n(Situational use where u might want to take reduced AoE DMG and increasing single target heal/dps)",
+      "tags": [
+        "AoE DMG"
+      ],
+      "detailInfo": []
+    },
+    {
+      "id": "TAROT-007",
+      "slug": "march-of-the-chariot",
+      "name": "March of The Chariot",
+      "iconCode": "The-Chariot",
+      "icon": "",
+      "usage": [
+        "PVP"
+      ],
+      "effect": "Gains [Move I] when not using any active skills and [Standby], lasting for 2 turns.",
+      "slot4Effect": "Changes the effect of [Tarot Whisper Skill] into: Gains [Move II] when not using any active skills and [Standby], lasting for 2 turns.",
+      "slot4Types": [
+        "Special Effect"
+      ],
+      "purposes": [
+        "Other"
+      ],
+      "recommendedFor": "Simona, Rawiyah OG, Acambe\n(Recomended for PvP only)",
+      "tags": [
+        "Move I",
+        "Standby",
+        "Tarot Whisper Skill",
+        "Move II"
+      ],
+      "detailInfo": [
+        {
+          "name": "Standby",
+          "detail": "[State] Ends current action without conducting an [Attack Turn]. Using [Instant] skills does not count as an [Attack Turn]."
+        }
+      ]
+    },
+    {
+      "id": "TAROT-008",
+      "slug": "source-of-strength",
+      "name": "Source of Strength",
+      "iconCode": "Strength",
+      "icon": "",
+      "usage": [
+        "PVP",
+        "Situational"
+      ],
+      "effect": "When attacked by a character of [the character’s Counter Role], DMG taken is decreased by 10%. When attacking a character of [the character’s Counter Role], ignores 15% of the target’s DEF.",
+      "slot4Effect": "When attacked by a character of [the character’s Counter Role], DMG taken is additionally decreased by 10%. When attacking a character of [the character’s Counter Role], additionally ignores 20% of the target’s DEF.",
+      "slot4Types": [
+        "Special Effect"
+      ],
+      "purposes": [
+        "Damage Dealer"
+      ],
+      "recommendedFor": "Saffiyah OG\n(Breaker, Seeker, Defender you want to do more dmg and take less dmg from their Advantage Role & Counter Role)",
+      "tags": [
+        "the character’s Counter Role"
+      ],
+      "detailInfo": []
+    },
+    {
+      "id": "TAROT-009",
+      "slug": "silence-of-the-hermit",
+      "name": "Silence of The Hermit",
+      "iconCode": "The-Hermit",
+      "icon": "",
+      "usage": [
+        "PVP"
+      ],
+      "effect": "Decreases DMG taken by 10%.",
+      "slot4Effect": "Decreases DMG taken by 10% additionally.",
+      "slot4Types": [
+        "Special Effect"
+      ],
+      "purposes": [
+        "Tank"
+      ],
+      "recommendedFor": "Magnus, Alex, Maitha, Guzman, Pamina, Nergal, Teadon\n(Any tank, recomended for PvP only)",
+      "tags": [],
+      "detailInfo": []
+    },
+    {
+      "id": "TAROT-010",
+      "slug": "course-of-fortune",
+      "name": "Course of Fortune",
+      "iconCode": "Wheel-of-Fortune",
+      "icon": "",
+      "usage": [
+        "PVP",
+        "General - PVE"
+      ],
+      "effect": "At the start of the turn, gains 1 random [buff] of [The Wheel of Fortune].",
+      "slot4Effect": "At the start of the turn, gains 1 additional random [buff] of [The Wheel of Fortune].",
+      "slot4Types": [
+        "Special Effect",
+        "Stats"
+      ],
+      "purposes": [
+        "Support",
+        "Damage Dealer",
+        "Other"
+      ],
+      "recommendedFor": "All rounder tarot, works on anyone but any unit might have better tarot rather than using this.",
+      "tags": [
+        "buff",
+        "The Wheel of Fortune"
+      ],
+      "detailInfo": [
+        {
+          "name": "Buff",
+          "detail": "Refers to a situation that causes favorable effects on the current character."
+        }
+      ]
+    },
+    {
+      "id": "TAROT-011",
+      "slug": "verdict-of-justice",
+      "name": "Verdict of Justice",
+      "iconCode": "Justice",
+      "icon": "",
+      "usage": [
+        "PVP",
+        "General - PVE"
+      ],
+      "effect": "Increases Crit by 15%.",
+      "slot4Effect": "Increase Crit DMG by 15%",
+      "slot4Types": [
+        "Special Effect"
+      ],
+      "purposes": [
+        "Damage Dealer"
+      ],
+      "recommendedFor": "Any end game damage dealer you want to maximize their damage output through critical damage",
+      "tags": [],
+      "detailInfo": []
+    },
+    {
+      "id": "TAROT-012",
+      "slug": "desire-for-temperance",
+      "name": "Desire for Temperance",
+      "iconCode": "Temperance",
+      "icon": "",
+      "usage": [
+        "PVP"
+      ],
+      "effect": "At the start of the battle, gains a [physical shield] equal to 25% of the character’s P.ATK plus its M.ATK. The shield cannot be dispelled.",
+      "slot4Effect": "Decrease DMG taken by 15% when the character has a [shield]",
+      "slot4Types": [
+        "Special Effect"
+      ],
+      "purposes": [
+        "Damage Dealer",
+        "Support",
+        "Tank"
+      ],
+      "recommendedFor": "Give you mediocre undispellable shield & damage reduction\n(Recomended for PvP only)",
+      "tags": [
+        "physical shield",
+        "shield"
+      ],
+      "detailInfo": [
+        {
+          "name": "Shield",
+          "detail": "[Shield] Categorized into Physical Shield and Magical Shield, used to resist P.DMG and M.DMG respectively."
+        }
+      ]
+    },
+    {
+      "id": "TAROT-013",
+      "slug": "temptation-of-the-devil",
+      "name": "Temptation of The Devil",
+      "iconCode": "The-Devil",
+      "icon": "",
+      "usage": [
+        "PVP",
+        "General - PVE"
+      ],
+      "effect": "For each 1 character defeated in battle, gains 1 stack of [Devil]. The effect lasts until the end of the battle and cannot be dispelled or immunized.",
+      "slot4Effect": "Changes the effect of [Tarot Whisper Skill] into: For each 1 character defeated in battle, gains 2 stack of [Devil]. The effect lasts until the end of the battle and cannot be dispelled or immunized.",
+      "slot4Types": [
+        "Special Effect",
+        "Stats"
+      ],
+      "purposes": [
+        "Damage Dealer"
+      ],
+      "recommendedFor": "Dantallion, Acambe, Garcia, Kvare\n(Good for situation where you want to scale in longer battle)",
+      "tags": [
+        "Devil",
+        "Tarot Whisper Skill"
+      ],
+      "detailInfo": []
+    },
+    {
+      "id": "TAROT-014",
+      "slug": "destruction-of-the-tower",
+      "name": "Destruction of The Tower",
+      "iconCode": "The-Tower",
+      "icon": "",
+      "usage": [
+        "PVP",
+        "General - PVE"
+      ],
+      "effect": "When it’s not the character’s turn, DMG dealt increases by 20%.",
+      "slot4Effect": "While it's not the character's turn, gains 40% [Life Steal] when dealing DMG.",
+      "slot4Types": [
+        "Stats",
+        "Special Effect"
+      ],
+      "purposes": [
+        "Damage Dealer"
+      ],
+      "recommendedFor": "Alexei, Edda, Layla, Pamina, Momo, Faycal\n(Any unit able to deal damage out of their turn)",
+      "tags": [
+        "Life Steal"
+      ],
+      "detailInfo": [
+        {
+          "name": "Life Steal",
+          "detail": "[Buff] Recovers a certain amount of HP based on a percentage of the DMG dealt to enemies"
+        }
+      ]
+    },
+    {
+      "id": "TAROT-015",
+      "slug": "gibbous-moon",
+      "name": "Gibbous Moon",
+      "iconCode": "The-Moon",
+      "icon": "",
+      "usage": [
+        "Situational"
+      ],
+      "effect": "At the end of the turn, recovers 20% HP if the character is [Injured].",
+      "slot4Effect": "When the character is injured, healing received increases by 15%, and further increases to 30% when in Dying state.",
+      "slot4Types": [
+        "Special Effect"
+      ],
+      "purposes": [
+        "Other"
+      ],
+      "recommendedFor": "Niche use.\nReally just use other tarot.",
+      "tags": [
+        "Injured"
+      ],
+      "detailInfo": [
+        {
+          "name": "Injured",
+          "detail": "[State] Activates when HP is below 70%. Reduces DMG dealt by 20% and increases DMG taken by 20%."
+        }
+      ]
+    },
+    {
+      "id": "TAROT-016",
+      "slug": "rays-of-the-sun",
+      "name": "Rays of the Sun",
+      "iconCode": "The-Sun",
+      "icon": "",
+      "usage": [
+        "Situational"
+      ],
+      "effect": "When attacking [Injured] enemies, ignore 20% of their DEF.",
+      "slot4Effect": "When attacking [Injured] enemies, additionally ignore 20% of their DEF.",
+      "slot4Types": [
+        "Special Effect"
+      ],
+      "purposes": [
+        "Damage Dealer"
+      ],
+      "recommendedFor": "not recomended to use this tarot.",
+      "tags": [
+        "Injured"
+      ],
+      "detailInfo": [
+        {
+          "name": "Injured",
+          "detail": "[State] Activates when HP is below 70%. Reduces DMG dealt by 20% and increases DMG taken by 20%."
+        }
+      ]
+    },
+    {
+      "id": "TAROT-017",
+      "slug": "redemption-of-the-judgement",
+      "name": "Redemption of the Judgement",
+      "iconCode": "Judgement",
+      "icon": "",
+      "usage": [
+        "PVP",
+        "General - PVE"
+      ],
+      "effect": "At the end of the turn, dispels 2 [Attribute Buffs] from 1 random enemy within 2 tiles around the character.",
+      "slot4Effect": "Changes the effect of [Tarot Whisper Skill] into: At the end of the turn, dispels 2 [Attribute Buffs] from 1 random enemy within 2 tiles around the character. Inflicts [Judgment] for 2 turns.",
+      "slot4Types": [
+        "Special Effect",
+        "Stats"
+      ],
+      "purposes": [
+        "Tank",
+        "Damage Dealer",
+        "Support",
+        "Other"
+      ],
+      "recommendedFor": "Homa, Cocoa, NonoWill, etc.\nSituational use if you need to clear enemy attribute buff and inflict unique vul debuff",
+      "tags": [
+        "Attribute Buffs",
+        "Tarot Whisper Skill",
+        "Judgment"
+      ],
+      "detailInfo": []
+    },
+    {
+      "id": "TAROT-018",
+      "slug": "guidance-of-the-world",
+      "name": "Guidance of the World",
+      "iconCode": "The-World",
+      "icon": "",
+      "usage": [
+        "PVP",
+        "General - PVE"
+      ],
+      "effect": "Recovers 1 NRG additionally when not using any active skills and [Standby].",
+      "slot4Effect": "Reduce the CD of all active skills by 1 turn when not using any active skills and [Standby]",
+      "slot4Types": [
+        "Special Effect"
+      ],
+      "purposes": [
+        "Support",
+        "Cheese"
+      ],
+      "recommendedFor": "Inanna, Acambe, Samantha, Nungal\n(Any unit need CDR and NRG)",
+      "tags": [
+        "Standby"
+      ],
+      "detailInfo": [
+        {
+          "name": "Standby",
+          "detail": "[State] Ends current action without conducting an [Attack Turn]. Using [Instant] skills does not count as an [Attack Turn]."
+        }
+      ]
+    },
+    {
+      "id": "TAROT-019",
+      "slug": "the-lovers-intimacy",
+      "name": "The Lovers' Intimacy",
+      "iconCode": "The-Lovers",
+      "icon": "",
+      "usage": [
+        "PVP",
+        "Situational"
+      ],
+      "effect": "Reduce [Piercing Damage] by 8%. At the start of the turn, dispel 1 [Continous Damage] from yourself.",
+      "slot4Effect": "Reduce [Piercing Damage] by an additional 8%. At the start of the turn, dispel an additional [Continous Damage] from yourself.",
+      "slot4Types": [
+        "Special Effect"
+      ],
+      "purposes": [],
+      "recommendedFor": "",
+      "tags": [
+        "Piercing Damage",
+        "Continous Damage"
+      ],
+      "detailInfo": []
+    },
+    {
+      "id": "TAROT-020",
+      "slug": "whispers-of-death",
+      "name": "Whispers of Death",
+      "iconCode": "Death",
+      "icon": "",
+      "usage": [
+        "PVP",
+        "General - PVE"
+      ],
+      "effect": "[Piercing Damage] increase by 8%.",
+      "slot4Effect": "[Piercing Damage] increase by an additional 5%. When attacking enemies in [Dying] state, [Piercing Damage increased by an additional 5%.",
+      "slot4Types": [
+        "Special Effect"
+      ],
+      "purposes": [
+        "Damage Dealer"
+      ],
+      "recommendedFor": "Caris, or any piercing dmg dealer",
+      "tags": [
+        "Piercing Damage",
+        "Dying"
+      ],
+      "detailInfo": [
+        {
+          "name": "Dying",
+          "detail": "[State] When HP is below 30%, reduces DMG dealt by 30% and increases DMG taken by 30%."
+        }
+      ]
+    },
+    {
+      "id": "TAROT-021",
+      "slug": "guidance-of-the-star",
+      "name": "Guidance of the Star",
+      "iconCode": "The-Star",
+      "icon": "",
+      "usage": [
+        "Situational",
+        "PVP"
+      ],
+      "effect": "Increase [Shield Value] by 8%",
+      "slot4Effect": "Increases [Shield Value] by an additional 8%. Increases [Shield Value] gained by 8%",
+      "slot4Types": [
+        "Special Effect"
+      ],
+      "purposes": [
+        "Other"
+      ],
+      "recommendedFor": "Unit need Shield or gaining shield each turn",
+      "tags": [
+        "Shield Value"
+      ],
+      "detailInfo": []
+    },
+    {
+      "id": "TAROT-022",
+      "slug": "the-hanged-man-s-dedication",
+      "name": "The Hanged Man's Dedication",
+      "iconCode": "The-Hanged-Man",
+      "icon": "",
+      "usage": [
+        "General - PVE",
+        "PVP"
+      ],
+      "effect": "Increases [Dot Effects] by 8%",
+      "slot4Effect": "Additionally increases [Dot Effects] by 6%; when the character is [Healthy], additionally increases [Dot Effects] by 6%.",
+      "slot4Types": [
+        "Special Effect"
+      ],
+      "purposes": [
+        "Damage Dealer",
+        "Support"
+      ],
+      "recommendedFor": "Unit using DoT as their base damage (majority of vlder)",
+      "tags": [
+        "Dot Effects",
+        "Healthy"
+      ],
+      "detailInfo": [
+        {
+          "name": "Healthy",
+          "detail": "[State] Activated when HP is no less than 70%."
+        }
+      ]
+    }
+  ]
+}

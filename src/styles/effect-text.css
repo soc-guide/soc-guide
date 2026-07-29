@@ -1,0 +1,117 @@
+.effect-term {
+  display: inline;
+  padding: 0;
+  color: #8fd2ff;
+  border: 0;
+  background: transparent;
+  font: inherit;
+  line-height: inherit;
+  text-decoration: none;
+  white-space: normal;
+}
+.effect-term-defined { color: #f1cf68; }
+.effect-term-system { color: #8fd2ff; }
+.effect-term-healing { color: #8ee3b2; }
+.effect-term-negative { color: #f1a177; }
+.effect-term-interactive {
+  cursor: help;
+  text-decoration-line: underline;
+  text-decoration-style: dotted;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+.effect-term-interactive:hover,
+.effect-term-interactive:focus-visible,
+.effect-term-interactive[aria-expanded="true"] {
+  color: #fff0a8;
+  text-shadow: 0 0 10px rgba(240, 204, 97, .28);
+  outline: none;
+}
+.effect-property-line {
+  margin: 0 0 12px;
+  color: rgba(240, 235, 220, .72);
+  font-size: 12px;
+  line-height: 1.6;
+}
+.effect-property-line strong {
+  color: #d9c986;
+  font-size: 11px;
+  letter-spacing: .055em;
+  text-transform: uppercase;
+}
+.effect-property-line .effect-term { font-size: inherit; }
+
+.effect-term-tooltip {
+  position: fixed;
+  inset: auto;
+  margin: 0;
+  z-index: 10000;
+  width: min(360px, calc(100vw - 20px));
+  max-height: min(250px, calc(100vh - 20px));
+  padding: 12px 14px;
+  overflow-y: auto;
+  color: #f1ecdf;
+  border: 1px solid rgba(229, 204, 119, .72);
+  border-radius: 7px 16px 7px 16px;
+  background: linear-gradient(155deg, rgba(48, 55, 69, .99), rgba(31, 37, 49, .99));
+  box-shadow: 0 16px 38px rgba(0, 0, 0, .42), inset 0 1px rgba(255, 255, 255, .05);
+  pointer-events: auto;
+}
+.effect-term-tooltip[hidden] { display: none; }
+.effect-term-tooltip.is-pinned::after {
+  content: "Pinned";
+  position: absolute;
+  top: 9px;
+  right: 11px;
+  color: rgba(238, 224, 172, .52);
+  font: 700 8px/1 sans-serif;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+.effect-term-tooltip-title {
+  display: block;
+  padding-right: 44px;
+  color: #f0d373;
+  font: 700 13px/1.35 "Libre Baskerville", Georgia, serif;
+}
+.effect-term-tooltip-body {
+  margin: 7px 0 0;
+  color: #ece6d8;
+  font: 400 12px/1.58 "Libre Baskerville", Georgia, serif;
+  white-space: pre-line;
+}
+
+@media (hover: none) {
+  .effect-term-interactive { cursor: pointer; }
+}
+
+/* v2: pointer-anchored effect tooltips */
+.effect-term-tooltip {
+  transform-origin: top left;
+  animation: effect-tooltip-in .11s ease-out;
+}
+@keyframes effect-tooltip-in {
+  from { opacity: 0; transform: translateY(3px) scale(.985); }
+  to { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+/* v3: a modal dialog is in the browser top layer, so the React tooltip is
+   portaled into the open dialog and clamped around the pointer. */
+.effect-term-tooltip {
+  z-index: 2147483647;
+  width: min(360px, calc(100vw - 20px));
+  max-width: calc(100vw - 20px);
+  max-height: min(250px, calc(100dvh - 20px));
+  isolation: isolate;
+}
+
+dialog[open] > .effect-term-tooltip {
+  z-index: 2147483647;
+}
+
+/* v4: consistent semantic colors for bracketed game terms. */
+.effect-term-defined { color: #f1c85b; }
+.effect-term-system { color: #79c9ff; }
+.effect-term-healing,
+.effect-term-positive { color: #72d69a; }
+.effect-term-negative { color: #f09670; }

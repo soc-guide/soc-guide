@@ -1,0 +1,2554 @@
+{
+  "source": {
+    "spreadsheetId": "1xizGBhuAb6ZvsoZ49dfSFcCf3EjOX1JramFsXAZLbsU",
+    "sheet": "Character List",
+    "snapshotDate": "2026-07-29"
+  },
+  "roles": [
+    {
+      "name": "Watcher",
+      "icon": "https://cdn.discordapp.com/emojis/1378196074556166257.png?size=128&quality=lossless"
+    },
+    {
+      "name": "Destroyer",
+      "icon": "https://cdn.discordapp.com/emojis/1378196070214930462.png?size=128&quality=lossless"
+    },
+    {
+      "name": "Defender",
+      "icon": "https://cdn.discordapp.com/emojis/1378196077357826128.png?size=128&quality=lossless"
+    },
+    {
+      "name": "Breaker",
+      "icon": "https://cdn.discordapp.com/emojis/1378196065924419634.png?size=128&quality=lossless"
+    },
+    {
+      "name": "Seeker",
+      "icon": "https://cdn.discordapp.com/emojis/1378196062010867833.png?size=128&quality=lossless"
+    }
+  ],
+  "factions": [
+    {
+      "name": "Elaman",
+      "icon": ""
+    },
+    {
+      "name": "The Union",
+      "icon": "https://cdn.discordapp.com/emojis/1378183953625776138.png?size=128&quality=lossless"
+    },
+    {
+      "name": "Papal States",
+      "icon": "https://cdn.discordapp.com/emojis/1378183897229164544.png?size=128&quality=lossless"
+    },
+    {
+      "name": "Vlder",
+      "icon": "https://cdn.discordapp.com/emojis/1378183995883524096.png?size=128&quality=lossless"
+    },
+    {
+      "name": "Iria",
+      "icon": "https://cdn.discordapp.com/emojis/1292007418506510378.png?size=128&quality=lossless"
+    },
+    {
+      "name": "Drifter",
+      "icon": "https://cdn.discordapp.com/emojis/1378183853130121346.png?size=128&quality=lossless"
+    },
+    {
+      "name": "Sword of Convallaria",
+      "icon": "https://cdn.discordapp.com/emojis/1378196243611783168.png?size=128&quality=lossless"
+    },
+    {
+      "name": "Night Crimson",
+      "icon": "https://cdn.discordapp.com/emojis/1378195412447658015.png?size=128&quality=lossless"
+    },
+    {
+      "name": "Alacrity",
+      "icon": "https://cdn.discordapp.com/emojis/1378195389684912218.png?size=128&quality=lossless"
+    },
+    {
+      "name": "Fortitude",
+      "icon": "https://cdn.discordapp.com/emojis/1378194533854220388.png?size=128&quality=lossless"
+    },
+    {
+      "name": "Discipline",
+      "icon": "https://cdn.discordapp.com/emojis/1378192387297513524.png?size=128&quality=lossless"
+    },
+    {
+      "name": "Aggression",
+      "icon": "https://cdn.discordapp.com/emojis/1378196259617247313.png?size=128&quality=lossless"
+    }
+  ],
+  "characters": [
+    {
+      "id": "CR001",
+      "slug": "outlaw-axeman",
+      "name": "Outlaw Axeman",
+      "rarity": "Common",
+      "releaseOrder": 1,
+      "releaseDate": null,
+      "role": "Breaker",
+      "roleIcon": "https://cdn.discordapp.com/emojis/1378196065924419634.png?size=128&quality=lossless",
+      "factions": [
+        {
+          "name": "Drifter",
+          "icon": "https://cdn.discordapp.com/emojis/1378183853130121346.png?size=128&quality=lossless"
+        }
+      ],
+      "weaponType": "Staff",
+      "pixelArt": "https://raw.githubusercontent.com/camelot-x/unit-art-images/main/pixel-art/C/R/001.png",
+      "detailAvailable": true
+    },
+    {
+      "id": "CG001",
+      "slug": "outlaw-guard",
+      "name": "Outlaw Guard",
+      "rarity": "Common",
+      "releaseOrder": 1,
+      "releaseDate": null,
+      "role": "Defender",
+      "roleIcon": "https://cdn.discordapp.com/emojis/1378196077357826128.png?size=128&quality=lossless",
+      "factions": [
+        {
+          "name": "Drifter",
+          "icon": "https://cdn.discordapp.com/emojis/1378183853130121346.png?size=128&quality=lossless"
+        }
+      ],
+      "weaponType": "Sword",
+      "pixelArt": "https://raw.githubusercontent.com/camelot-x/unit-art-images/main/pixel-art/C/G/001.png",
+      "detailAvailable": true
+    },
+    {
+      "id": "CB001",
+      "slug": "outlaw-assassin",
+      "name": "Outlaw Assassin",
+      "rarity": "Common",
+      "releaseOrder": 1,
+      "releaseDate": null,
+      "role": "Seeker",
+      "roleIcon": "https://cdn.discordapp.com/emojis/1378196062010867833.png?size=128&quality=lossless",
+      "factions": [
+        {
+          "name": "Drifter",
+          "icon": "https://cdn.discordapp.com/emojis/1378183853130121346.png?size=128&quality=lossless"
+        }
+      ],
+      "weaponType": "Axe",
+      "pixelArt": "https://raw.githubusercontent.com/camelot-x/unit-art-images/main/pixel-art/C/B/001.png",
+      "detailAvailable": true
+    },
+    {
+      "id": "CL001",
+      "slug": "outlaw-archer",
+      "name": "Outlaw Archer",
+      "rarity": "Common",
+      "releaseOrder": 1,
+      "releaseDate": null,
+      "role": "Watcher",
+      "roleIcon": "https://cdn.discordapp.com/emojis/1378196074556166257.png?size=128&quality=lossless",
+      "factions": [
+        {
+          "name": "Drifter",
+          "icon": "https://cdn.discordapp.com/emojis/1378183853130121346.png?size=128&quality=lossless"
+        }
+      ],
+      "weaponType": "Axe",
+      "pixelArt": "https://raw.githubusercontent.com/camelot-x/unit-art-images/main/pixel-art/C/L/001.png",
+      "detailAvailable": true
+    },
+    {
+      "id": "ER001",
+      "slug": "might",
+      "name": "Might",
+      "rarity": "Epic",
+      "releaseOrder": 1,
+      "releaseDate": null,
+      "role": "Breaker",
+      "roleIcon": "https://cdn.discordapp.com/emojis/1378196065924419634.png?size=128&quality=lossless",
+      "factions": [
+        {
+          "name": "The Union",
+          "icon": "https://cdn.discordapp.com/emojis/1378183953625776138.png?size=128&quality=lossless"
+        },
+        {
+          "name": "Discipline",
+          "icon": "https://cdn.discordapp.com/emojis/1378192387297513524.png?size=128&quality=lossless"
+        }
+      ],
+      "weaponType": "Staff",
+      "pixelArt": "https://raw.githubusercontent.com/camelot-x/unit-art-images/main/pixel-art/E/R/001.png",
+      "detailAvailable": true
+    },
+    {
+      "id": "EG001",
+      "slug": "suppression",
+      "name": "Suppression",
+      "rarity": "Epic",
+      "releaseOrder": 1,
+      "releaseDate": null,
+      "role": "Defender",
+      "roleIcon": "https://cdn.discordapp.com/emojis/1378196077357826128.png?size=128&quality=lossless",
+      "factions": [
+        {
+          "name": "Papal States",
+          "icon": "https://cdn.discordapp.com/emojis/1378183897229164544.png?size=128&quality=lossless"
+        },
+        {
+          "name": "Fortitude",
+          "icon": "https://cdn.discordapp.com/emojis/1378194533854220388.png?size=128&quality=lossless"
+        }
+      ],
+      "weaponType": "Staff",
+      "pixelArt": "https://raw.githubusercontent.com/camelot-x/unit-art-images/main/pixel-art/E/G/001.png",
+      "detailAvailable": true
+    },
+    {
+      "id": "ED001",
+      "slug": "abyss",
+      "name": "Abyss",
+      "rarity": "Epic",
+      "releaseOrder": 1,
+      "releaseDate": null,
+      "role": "Destroyer",
+      "roleIcon": "https://cdn.discordapp.com/emojis/1378196070214930462.png?size=128&quality=lossless",
+      "factions": [
+        {
+          "name": "Drifter",
+          "icon": "https://cdn.discordapp.com/emojis/1378183853130121346.png?size=128&quality=lossless"
+        },
+        {
+          "name": "Fortitude",
+          "icon": "https://cdn.discordapp.com/emojis/1378194533854220388.png?size=128&quality=lossless"
+        }
+      ],
+      "weaponType": "Sword",
+      "pixelArt": "https://raw.githubusercontent.com/camelot-x/unit-art-images/main/pixel-art/E/D/001.png",
+      "detailAvailable": true
+    },
+    {
+      "id": "EB001",
+      "slug": "blade",
+      "name": "Blade",
+      "rarity": "Epic",
+      "releaseOrder": 1,
+      "releaseDate": null,
+      "role": "Seeker",
+      "roleIcon": "https://cdn.discordapp.com/emojis/1378196062010867833.png?size=128&quality=lossless",
+      "factions": [
+        {
+          "name": "Papal States",
+          "icon": "https://cdn.discordapp.com/emojis/1378183897229164544.png?size=128&quality=lossless"
+        },
+        {
+          "name": "Alacrity",
+          "icon": "https://cdn.discordapp.com/emojis/1378195389684912218.png?size=128&quality=lossless"
+        }
+      ],
+      "weaponType": "Axe",
+      "pixelArt": "https://raw.githubusercontent.com/camelot-x/unit-art-images/main/pixel-art/E/B/001.png",
+      "detailAvailable": true
+    },
+    {
+      "id": "EL001",
+      "slug": "agile-eye",
+      "name": "Agile Eye",
+      "rarity": "Epic",
+      "releaseOrder": 1,
+      "releaseDate": null,
+      "role": "Watcher",
+      "roleIcon": "https://cdn.discordapp.com/emojis/1378196074556166257.png?size=128&quality=lossless",
+      "factions": [
+        {
+          "name": "Vlder",
+          "icon": "https://cdn.discordapp.com/emojis/1378183995883524096.png?size=128&quality=lossless"
+        },
+        {
+          "name": "Alacrity",
+          "icon": "https://cdn.discordapp.com/emojis/1378195389684912218.png?size=128&quality=lossless"
+        }
+      ],
+      "weaponType": "Sword",
+      "pixelArt": "https://raw.githubusercontent.com/camelot-x/unit-art-images/main/pixel-art/E/L/001.png",
+      "detailAvailable": true
+    },
+    {
+      "id": "LR001",
+      "slug": "xavier",
+      "name": "Xavier",
+      "rarity": "Legendary",
+      "releaseOrder": 1,
+      "releaseDate": null,
+      "role": "Breaker",
+      "roleIcon": "https://cdn.discordapp.com/emojis/1378196065924419634.png?size=128&quality=lossless",
+      "factions": [
+        {
+          "name": "Iria",
+          "icon": "https://cdn.discordapp.com/emojis/1292007418506510378.png?size=128&quality=lossless"
+        },
+        {
+          "name": "Fortitude",
+          "icon": "https://cdn.discordapp.com/emojis/1378194533854220388.png?size=128&quality=lossless"
+        }
+      ],
+      "weaponType": "Spear",
+      "pixelArt": "https://raw.githubusercontent.com/camelot-x/unit-art-images/main/pixel-art/L/R/001.png",
+      "detailAvailable": true
+    },
+    {
+      "id": "LG001",
+      "slug": "maitha",
+      "name": "Maitha",
+      "rarity": "Legendary",
+      "releaseOrder": 1,
+      "releaseDate": null,
+      "role": "Defender",
+      "roleIcon": "https://cdn.discordapp.com/emojis/1378196077357826128.png?size=128&quality=lossless",
+      "factions": [
+        {
+          "name": "Sword of Convallaria",
+          "icon": "https://cdn.discordapp.com/emojis/1378196243611783168.png?size=128&quality=lossless"
+        },
+        {
+          "name": "Iria",
+          "icon": "https://cdn.discordapp.com/emojis/1292007418506510378.png?size=128&quality=lossless"
+        }
+      ],
+      "weaponType": "Sword",
+      "pixelArt": "https://raw.githubusercontent.com/camelot-x/unit-art-images/main/pixel-art/L/G/001.png",
+      "detailAvailable": true
+    },
+    {
+      "id": "LD001",
+      "slug": "beryl",
+      "name": "Beryl",
+      "rarity": "Legendary",
+      "releaseOrder": 1,
+      "releaseDate": null,
+      "role": "Destroyer",
+      "roleIcon": "https://cdn.discordapp.com/emojis/1378196070214930462.png?size=128&quality=lossless",
+      "factions": [
+        {
+          "name": "Papal States",
+          "icon": "https://cdn.discordapp.com/emojis/1378183897229164544.png?size=128&quality=lossless"
+        },
+        {
+          "name": "Sword of Convallaria",
+          "icon": "https://cdn.discordapp.com/emojis/1378196243611783168.png?size=128&quality=lossless"
+        },
+        {
+          "name": "Aggression",
+          "icon": "https://cdn.discordapp.com/emojis/1378196259617247313.png?size=128&quality=lossless"
+        }
+      ],
+      "weaponType": "Staff",
+      "pixelArt": "https://raw.githubusercontent.com/camelot-x/unit-art-images/main/pixel-art/L/D/001.png",
+      "detailAvailable": true
+    },
+    {
+      "id": "LB001",
+      "slug": "col",
+      "name": "Col",
+      "rarity": "Legendary",
+      "releaseOrder": 1,
+      "releaseDate": null,
+      "role": "Seeker",
+      "roleIcon": "https://cdn.discordapp.com/emojis/1378196062010867833.png?size=128&quality=lossless",
+      "factions": [
+        {
+          "name": "Papal States",
+          "icon": "https://cdn.discordapp.com/emojis/1378183897229164544.png?size=128&quality=lossless"
+        },
+        {
+          "name": "Drifter",
+          "icon": "https://cdn.discordapp.com/emojis/1378183853130121346.png?size=128&quality=lossless"
+        },
+        {
+          "name": "Alacrity",
+          "icon": "https://cdn.discordapp.com/emojis/1378195389684912218.png?size=128&quality=lossless"
+        }
+      ],
+      "weaponType": "Sword",
+      "pixelArt": "https://raw.githubusercontent.com/camelot-x/unit-art-images/main/pixel-art/L/B/001.png",
+      "detailAvailable": true
+    },
+    {
+      "id": "LL001",
+      "slug": "faycal",
+      "name": "Faycal",
+      "rarity": "Legendary",
+      "releaseOrder": 1,
+      "releaseDate": null,
+      "role": "Watcher",
+      "roleIcon": "https://cdn.discordapp.com/emojis/1378196074556166257.png?size=128&quality=lossless",
+      "factions": [
+        {
+          "name": "Sword of Convallaria",
+          "icon": "https://cdn.discordapp.com/emojis/1378196243611783168.png?size=128&quality=lossless"
+        },
+        {
+          "name": "Iria",
+          "icon": "https://cdn.discordapp.com/emojis/1292007418506510378.png?size=128&quality=lossless"
+        },
+        {
+          "name": "Alacrity",
+          "icon": "https://cdn.discordapp.com/emojis/1378195389684912218.png?size=128&quality=lossless"
+        }
+      ],
+      "weaponType": "Bow",
+      "pixelArt": "https://raw.githubusercontent.com/camelot-x/unit-art-images/main/pixel-art/L/L/001.png",
+      "detailAvailable": true
+    },
+    {
+      "id": "RR001",
+      "slug": "k-a-pikeman",
+      "name": "K.A Pikeman",
+      "rarity": "Rare",
+      "releaseOrder": 1,
+      "releaseDate": null,
+      "role": "Breaker",
+      "roleIcon": "https://cdn.discordapp.com/emojis/1378196065924419634.png?size=128&quality=lossless",
+      "factions": [
+        {
+          "name": "Iria",
+          "icon": "https://cdn.discordapp.com/emojis/1292007418506510378.png?size=128&quality=lossless"
+        }
+      ],
+      "weaponType": "",
+      "pixelArt": "https://raw.githubusercontent.com/camelot-x/unit-art-images/main/pixel-art/R/R/001.png",
+      "detailAvailable": true
+    },
+    {
+      "id": "RG001",
+      "slug": "k-a-guard",
+      "name": "K.A Guard",
+      "rarity": "Rare",
+      "releaseOrder": 1,
+      "releaseDate": null,
+      "role": "Defender",
+      "roleIcon": "https://cdn.discordapp.com/emojis/1378196077357826128.png?size=128&quality=lossless",
+      "factions": [
+        {
+          "name": "Iria",
+          "icon": "https://cdn.discordapp.com/emojis/1292007418506510378.png?size=128&quality=lossless"
+        }
+      ],
+      "weaponType": "",
+      "pixelArt": "https://raw.githubusercontent.com/camelot-x/unit-art-images/main/pixel-art/R/G/001.png",
+      "detailAvailable": true
+    },
+    {
+      "id": "RD001",
+      "slug": "darklight-fire-priest",
+      "name": "Darklight Fire Priest",
+      "rarity": "Rare",
+      "releaseOrder": 1,
+      "releaseDate": null,
+      "role": "Destroyer",
+      "roleIcon": "https://cdn.discordapp.com/emojis/1378196070214930462.png?size=128&quality=lossless",
+      "factions": [
+        {
+          "name": "Drifter",
+          "icon": "https://cdn.discordapp.com/emojis/1378183853130121346.png?size=128&quality=lossless"
+        }
+      ],
+      "weaponType": "Sword",
+      "pixelArt": "https://raw.githubusercontent.com/camelot-x/unit-art-images/main/pixel-art/R/D/001.png",
+      "detailAvailable": true
+    },
+    {
+      "id": "RB001",
+      "slug": "vlderian-scout",
+      "name": "Vlderian Scout",
+      "rarity": "Rare",
+      "releaseOrder": 1,
+      "releaseDate": null,
+      "role": "Seeker",
+      "roleIcon": "https://cdn.discordapp.com/emojis/1378196062010867833.png?size=128&quality=lossless",
+      "factions": [
+        {
+          "name": "Vlder",
+          "icon": "https://cdn.discordapp.com/emojis/1378183995883524096.png?size=128&quality=lossless"
+        }
+      ],
+      "weaponType": "Spear",
+      "pixelArt": "https://raw.githubusercontent.com/camelot-x/unit-art-images/main/pixel-art/R/B/001.png",
+      "detailAvailable": true
+    },
+    {
+      "id": "RL001",
+      "slug": "k-a-archer",
+      "name": "K.A Archer",
+      "rarity": "Rare",
+      "releaseOrder": 1,
+      "releaseDate": null,
+      "role": "Watcher",
+      "roleIcon": "https://cdn.discordapp.com/emojis/1378196074556166257.png?size=128&quality=lossless",
+      "factions": [
+        {
+          "name": "Iria",
+          "icon": "https://cdn.discordapp.com/emojis/1292007418506510378.png?size=128&quality=lossless"
+        }
+      ],
+      "weaponType": "Axe",
+      "pixelArt": "https://raw.githubusercontent.com/camelot-x/unit-art-images/main/pixel-art/R/L/001.png",
+      "detailAvailable": true
+    },
+    {
+      "id": "CR002",
+      "slug": "outlaw-pikeman",
+      "name": "Outlaw Pikeman",
+      "rarity": "Common",
+      "releaseOrder": 2,
+      "releaseDate": null,
+      "role": "Breaker",
+      "roleIcon": "https://cdn.discordapp.com/emojis/1378196065924419634.png?size=128&quality=lossless",
+      "factions": [
+        {
+          "name": "Drifter",
+          "icon": "https://cdn.discordapp.com/emojis/1378183853130121346.png?size=128&quality=lossless"
+        }
+      ],
+      "weaponType": "Staff",
+      "pixelArt": "https://raw.githubusercontent.com/camelot-x/unit-art-images/main/pixel-art/C/R/002.png",
+      "detailAvailable": true
+    },
+    {
+      "id": "CG002",
+      "slug": "recruited-guard",
+      "name": "Recruited Guard",
+      "rarity": "Common",
+      "releaseOrder": 2,
+      "releaseDate": null,
+      "role": "Defender",
+      "roleIcon": "https://cdn.discordapp.com/emojis/1378196077357826128.png?size=128&quality=lossless",
+      "factions": [
+        {
+          "name": "Drifter",
+          "icon": "https://cdn.discordapp.com/emojis/1378183853130121346.png?size=128&quality=lossless"
+        }
+      ],
+      "weaponType": "Bow",
+      "pixelArt": "https://raw.githubusercontent.com/camelot-x/unit-art-images/main/pixel-art/C/G/002.png",
+      "detailAvailable": true
+    },
+    {
+      "id": "CB002",
+      "slug": "recruited-assassin",
+      "name": "Recruited Assassin",
+      "rarity": "Common",
+      "releaseOrder": 2,
+      "releaseDate": null,
+      "role": "Seeker",
+      "roleIcon": "https://cdn.discordapp.com/emojis/1378196062010867833.png?size=128&quality=lossless",
+      "factions": [
+        {
+          "name": "Drifter",
+          "icon": "https://cdn.discordapp.com/emojis/1378183853130121346.png?size=128&quality=lossless"
+        }
+      ],
+      "weaponType": "Spear",
+      "pixelArt": "https://raw.githubusercontent.com/camelot-x/unit-art-images/main/pixel-art/C/B/002.png",
+      "detailAvailable": true
+    },
+    {
+      "id": "CL002",
+      "slug": "outlaw-crossbowman",
+      "name": "Outlaw Crossbowman",
+      "rarity": "Common",
+      "releaseOrder": 2,
+      "releaseDate": null,
+      "role": "Watcher",
+      "roleIcon": "https://cdn.discordapp.com/emojis/1378196074556166257.png?size=128&quality=lossless",
+      "factions": [
+        {
+          "name": "Drifter",
+          "icon": "https://cdn.discordapp.com/emojis/1378183853130121346.png?size=128&quality=lossless"
+        }
+      ],
+      "weaponType": "Staff",
+      "pixelArt": "https://raw.githubusercontent.com/camelot-x/unit-art-images/main/pixel-art/C/L/002.png",
+      "detailAvailable": true
+    },
+    {
+      "id": "ER002",
+      "slug": "stormbreaker",
+      "name": "Stormbreaker",
+      "rarity": "Epic",
+      "releaseOrder": 2,
+      "releaseDate": null,
+      "role": "Breaker",
+      "roleIcon": "https://cdn.discordapp.com/emojis/1378196065924419634.png?size=128&quality=lossless",
+      "factions": [
+        {
+          "name": "Sword of Convallaria",
+          "icon": "https://cdn.discordapp.com/emojis/1378196243611783168.png?size=128&quality=lossless"
+        },
+        {
+          "name": "Drifter",
+          "icon": "https://cdn.discordapp.com/emojis/1378183853130121346.png?size=128&quality=lossless"
+        },
+        {
+          "name": "Aggression",
+          "icon": "https://cdn.discordapp.com/emojis/1378196259617247313.png?size=128&quality=lossless"
+        }
+      ],
+      "weaponType": "",
+      "pixelArt": "https://raw.githubusercontent.com/camelot-x/unit-art-images/main/pixel-art/E/R/002.png",
+      "detailAvailable": true
+    },
+    {
+      "id": "ED002",
+      "slug": "enforcer",
+      "name": "Enforcer",
+      "rarity": "Epic",
+      "releaseOrder": 2,
+      "releaseDate": null,
+      "role": "Destroyer",
+      "roleIcon": "https://cdn.discordapp.com/emojis/1378196070214930462.png?size=128&quality=lossless",
+      "factions": [
+        {
+          "name": "Iria",
+          "icon": "https://cdn.discordapp.com/emojis/1292007418506510378.png?size=128&quality=lossless"
+        },
+        {
+          "name": "Alacrity",
+          "icon": "https://cdn.discordapp.com/emojis/1378195389684912218.png?size=128&quality=lossless"
+        }
+      ],
+      "weaponType": "Sword",
+      "pixelArt": "https://raw.githubusercontent.com/camelot-x/unit-art-images/main/pixel-art/E/D/002.png",
+      "detailAvailable": true
+    },
+    {
+      "id": "EB002",
+      "slug": "crimson-falcon",
+      "name": "Crimson Falcon",
+      "rarity": "Epic",
+      "releaseOrder": 2,
+      "releaseDate": null,
+      "role": "Seeker",
+      "roleIcon": "https://cdn.discordapp.com/emojis/1378196062010867833.png?size=128&quality=lossless",
+      "factions": [
+        {
+          "name": "Iria",
+          "icon": "https://cdn.discordapp.com/emojis/1292007418506510378.png?size=128&quality=lossless"
+        },
+        {
+          "name": "Alacrity",
+          "icon": "https://cdn.discordapp.com/emojis/1378195389684912218.png?size=128&quality=lossless"
+        }
+      ],
+      "weaponType": "Spear",
+      "pixelArt": "https://raw.githubusercontent.com/camelot-x/unit-art-images/main/pixel-art/E/B/002.png",
+      "detailAvailable": true
+    },
+    {
+      "id": "EL002",
+      "slug": "angel",
+      "name": "Angel",
+      "rarity": "Epic",
+      "releaseOrder": 2,
+      "releaseDate": null,
+      "role": "Watcher",
+      "roleIcon": "https://cdn.discordapp.com/emojis/1378196074556166257.png?size=128&quality=lossless",
+      "factions": [
+        {
+          "name": "Papal States",
+          "icon": "https://cdn.discordapp.com/emojis/1378183897229164544.png?size=128&quality=lossless"
+        },
+        {
+          "name": "Aggression",
+          "icon": "https://cdn.discordapp.com/emojis/1378196259617247313.png?size=128&quality=lossless"
+        }
+      ],
+      "weaponType": "Bow",
+      "pixelArt": "https://raw.githubusercontent.com/camelot-x/unit-art-images/main/pixel-art/E/L/002.png",
+      "detailAvailable": true
+    },
+    {
+      "id": "LR002",
+      "slug": "rawiyah",
+      "name": "Rawiyah",
+      "rarity": "Legendary",
+      "releaseOrder": 1,
+      "releaseDate": null,
+      "role": "Breaker",
+      "roleIcon": "https://cdn.discordapp.com/emojis/1378196065924419634.png?size=128&quality=lossless",
+      "factions": [
+        {
+          "name": "Sword of Convallaria",
+          "icon": "https://cdn.discordapp.com/emojis/1378196243611783168.png?size=128&quality=lossless"
+        },
+        {
+          "name": "Iria",
+          "icon": "https://cdn.discordapp.com/emojis/1292007418506510378.png?size=128&quality=lossless"
+        },
+        {
+          "name": "Alacrity",
+          "icon": "https://cdn.discordapp.com/emojis/1378195389684912218.png?size=128&quality=lossless"
+        }
+      ],
+      "weaponType": "Axe",
+      "pixelArt": "https://raw.githubusercontent.com/camelot-x/unit-art-images/main/pixel-art/L/R/002.png",
+      "detailAvailable": true
+    },
+    {
+      "id": "LG002",
+      "slug": "magnus",
+      "name": "Magnus",
+      "rarity": "Legendary",
+      "releaseOrder": 1,
+      "releaseDate": null,
+      "role": "Defender",
+      "roleIcon": "https://cdn.discordapp.com/emojis/1378196077357826128.png?size=128&quality=lossless",
+      "factions": [
+        {
+          "name": "Iria",
+          "icon": "https://cdn.discordapp.com/emojis/1292007418506510378.png?size=128&quality=lossless"
+        },
+        {
+          "name": "Fortitude",
+          "icon": "https://cdn.discordapp.com/emojis/1378194533854220388.png?size=128&quality=lossless"
+        }
+      ],
+      "weaponType": "Axe",
+      "pixelArt": "https://raw.githubusercontent.com/camelot-x/unit-art-images/main/pixel-art/L/G/002.png",
+      "detailAvailable": true
+    },
+    {
+      "id": "LD002",
+      "slug": "dantalion",
+      "name": "Dantalion",
+      "rarity": "Legendary",
+      "releaseOrder": 1,
+      "releaseDate": null,
+      "role": "Destroyer",
+      "roleIcon": "https://cdn.discordapp.com/emojis/1378196070214930462.png?size=128&quality=lossless",
+      "factions": [
+        {
+          "name": "Iria",
+          "icon": "https://cdn.discordapp.com/emojis/1292007418506510378.png?size=128&quality=lossless"
+        },
+        {
+          "name": "Fortitude",
+          "icon": "https://cdn.discordapp.com/emojis/1378194533854220388.png?size=128&quality=lossless"
+        }
+      ],
+      "weaponType": "Sword",
+      "pixelArt": "https://raw.githubusercontent.com/camelot-x/unit-art-images/main/pixel-art/L/D/002.png",
+      "detailAvailable": true
+    },
+    {
+      "id": "LB002",
+      "slug": "garcia",
+      "name": "Garcia",
+      "rarity": "Legendary",
+      "releaseOrder": 1,
+      "releaseDate": null,
+      "role": "Seeker",
+      "roleIcon": "https://cdn.discordapp.com/emojis/1378196062010867833.png?size=128&quality=lossless",
+      "factions": [
+        {
+          "name": "Papal States",
+          "icon": "https://cdn.discordapp.com/emojis/1378183897229164544.png?size=128&quality=lossless"
+        },
+        {
+          "name": "Fortitude",
+          "icon": "https://cdn.discordapp.com/emojis/1378194533854220388.png?size=128&quality=lossless"
+        }
+      ],
+      "weaponType": "Sword",
+      "pixelArt": "https://raw.githubusercontent.com/camelot-x/unit-art-images/main/pixel-art/L/B/002.png",
+      "detailAvailable": true
+    },
+    {
+      "id": "LL002",
+      "slug": "gloria",
+      "name": "Gloria",
+      "rarity": "Legendary",
+      "releaseOrder": 1,
+      "releaseDate": null,
+      "role": "Watcher",
+      "roleIcon": "https://cdn.discordapp.com/emojis/1378196074556166257.png?size=128&quality=lossless",
+      "factions": [
+        {
+          "name": "The Union",
+          "icon": "https://cdn.discordapp.com/emojis/1378183953625776138.png?size=128&quality=lossless"
+        },
+        {
+          "name": "Fortitude",
+          "icon": "https://cdn.discordapp.com/emojis/1378194533854220388.png?size=128&quality=lossless"
+        }
+      ],
+      "weaponType": "Spear",
+      "pixelArt": "https://raw.githubusercontent.com/camelot-x/unit-art-images/main/pixel-art/L/L/002.png",
+      "detailAvailable": true
+    },
+    {
+      "id": "RR002",
+      "slug": "knighted-pikeman",
+      "name": "Knighted Pikeman",
+      "rarity": "Rare",
+      "releaseOrder": 2,
+      "releaseDate": null,
+      "role": "Breaker",
+      "roleIcon": "https://cdn.discordapp.com/emojis/1378196065924419634.png?size=128&quality=lossless",
+      "factions": [
+        {
+          "name": "The Union",
+          "icon": "https://cdn.discordapp.com/emojis/1378183953625776138.png?size=128&quality=lossless"
+        }
+      ],
+      "weaponType": "Bow",
+      "pixelArt": "https://raw.githubusercontent.com/camelot-x/unit-art-images/main/pixel-art/R/R/002.png",
+      "detailAvailable": true
+    },
+    {
+      "id": "RG002",
+      "slug": "knighted-guard",
+      "name": "Knighted Guard",
+      "rarity": "Rare",
+      "releaseOrder": 2,
+      "releaseDate": null,
+      "role": "Defender",
+      "roleIcon": "https://cdn.discordapp.com/emojis/1378196077357826128.png?size=128&quality=lossless",
+      "factions": [
+        {
+          "name": "The Union",
+          "icon": "https://cdn.discordapp.com/emojis/1378183953625776138.png?size=128&quality=lossless"
+        }
+      ],
+      "weaponType": "Staff",
+      "pixelArt": "https://raw.githubusercontent.com/camelot-x/unit-art-images/main/pixel-art/R/G/002.png",
+      "detailAvailable": true
+    },
+    {
+      "id": "RD002",
+      "slug": "darklight-ice-priest",
+      "name": "Darklight Ice Priest",
+      "rarity": "Rare",
+      "releaseOrder": 2,
+      "releaseDate": null,
+      "role": "Destroyer",
+      "roleIcon": "https://cdn.discordapp.com/emojis/1378196070214930462.png?size=128&quality=lossless",
+      "factions": [
+        {
+          "name": "Drifter",
+          "icon": "https://cdn.discordapp.com/emojis/1378183853130121346.png?size=128&quality=lossless"
+        }
+      ],
+      "weaponType": "Bow",
+      "pixelArt": "https://raw.githubusercontent.com/camelot-x/unit-art-images/main/pixel-art/R/D/002.png",
+      "detailAvailable": true
+    },
+    {
+      "id": "RL002",
+      "slug": "k-a-light-conjurer",
+      "name": "K.A Light Conjurer",
+      "rarity": "Rare",
+      "releaseOrder": 2,
+      "releaseDate": null,
+      "role": "Watcher",
+      "roleIcon": "https://cdn.discordapp.com/emojis/1378196074556166257.png?size=128&quality=lossless",
+      "factions": [
+        {
+          "name": "Iria",
+          "icon": "https://cdn.discordapp.com/emojis/1292007418506510378.png?size=128&quality=lossless"
+        }
+      ],
+      "weaponType": "Sword",
+      "pixelArt": "https://raw.githubusercontent.com/camelot-x/unit-art-images/main/pixel-art/R/L/002.png",
+      "detailAvailable": true
+    },
+    {
+      "id": "CR003",
+      "slug": "recruited-pikeman",
+      "name": "Recruited Pikeman",
+      "rarity": "Common",
+      "releaseOrder": 3,
+      "releaseDate": null,
+      "role": "Breaker",
+      "roleIcon": "https://cdn.discordapp.com/emojis/1378196065924419634.png?size=128&quality=lossless",
+      "factions": [
+        {
+          "name": "Drifter",
+          "icon": "https://cdn.discordapp.com/emojis/1378183853130121346.png?size=128&quality=lossless"
+        }
+      ],
+      "weaponType": "Bow",
+      "pixelArt": "https://raw.githubusercontent.com/camelot-x/unit-art-images/main/pixel-art/C/R/003.png",
+      "detailAvailable": true
+    },
+    {
+      "id": "CL003",
+      "slug": "recruited-archer",
+      "name": "Recruited Archer",
+      "rarity": "Common",
+      "releaseOrder": 3,
+      "releaseDate": null,
+      "role": "Watcher",
+      "roleIcon": "https://cdn.discordapp.com/emojis/1378196074556166257.png?size=128&quality=lossless",
+      "factions": [
+        {
+          "name": "Drifter",
+          "icon": "https://cdn.discordapp.com/emojis/1378183853130121346.png?size=128&quality=lossless"
+        }
+      ],
+      "weaponType": "Spear",
+      "pixelArt": "https://raw.githubusercontent.com/camelot-x/unit-art-images/main/pixel-art/C/L/003.png",
+      "detailAvailable": true
+    },
+    {
+      "id": "ER003",
+      "slug": "tempest",
+      "name": "Tempest",
+      "rarity": "Epic",
+      "releaseOrder": 3,
+      "releaseDate": null,
+      "role": "Breaker",
+      "roleIcon": "https://cdn.discordapp.com/emojis/1378196065924419634.png?size=128&quality=lossless",
+      "factions": [
+        {
+          "name": "The Union",
+          "icon": "https://cdn.discordapp.com/emojis/1378183953625776138.png?size=128&quality=lossless"
+        },
+        {
+          "name": "Fortitude",
+          "icon": "https://cdn.discordapp.com/emojis/1378194533854220388.png?size=128&quality=lossless"
+        }
+      ],
+      "weaponType": "Axe",
+      "pixelArt": "https://raw.githubusercontent.com/camelot-x/unit-art-images/main/pixel-art/E/R/003.png",
+      "detailAvailable": true
+    },
+    {
+      "id": "ED003",
+      "slug": "flame-sorceress",
+      "name": "Flame Sorceress",
+      "rarity": "Epic",
+      "releaseOrder": 3,
+      "releaseDate": null,
+      "role": "Destroyer",
+      "roleIcon": "https://cdn.discordapp.com/emojis/1378196070214930462.png?size=128&quality=lossless",
+      "factions": [
+        {
+          "name": "Drifter",
+          "icon": "https://cdn.discordapp.com/emojis/1378183853130121346.png?size=128&quality=lossless"
+        },
+        {
+          "name": "Aggression",
+          "icon": "https://cdn.discordapp.com/emojis/1378196259617247313.png?size=128&quality=lossless"
+        }
+      ],
+      "weaponType": "Axe",
+      "pixelArt": "https://raw.githubusercontent.com/camelot-x/unit-art-images/main/pixel-art/E/D/003.png",
+      "detailAvailable": true
+    },
+    {
+      "id": "EB003",
+      "slug": "lightning",
+      "name": "Lightning",
+      "rarity": "Epic",
+      "releaseOrder": 3,
+      "releaseDate": null,
+      "role": "Seeker",
+      "roleIcon": "https://cdn.discordapp.com/emojis/1378196062010867833.png?size=128&quality=lossless",
+      "factions": [
+        {
+          "name": "The Union",
+          "icon": "https://cdn.discordapp.com/emojis/1378183953625776138.png?size=128&quality=lossless"
+        },
+        {
+          "name": "Fortitude",
+          "icon": "https://cdn.discordapp.com/emojis/1378194533854220388.png?size=128&quality=lossless"
+        }
+      ],
+      "weaponType": "Sword",
+      "pixelArt": "https://raw.githubusercontent.com/camelot-x/unit-art-images/main/pixel-art/E/B/003.png",
+      "detailAvailable": true
+    },
+    {
+      "id": "EL003",
+      "slug": "ballista",
+      "name": "Ballista",
+      "rarity": "Epic",
+      "releaseOrder": 3,
+      "releaseDate": null,
+      "role": "Watcher",
+      "roleIcon": "https://cdn.discordapp.com/emojis/1378196074556166257.png?size=128&quality=lossless",
+      "factions": [
+        {
+          "name": "The Union",
+          "icon": "https://cdn.discordapp.com/emojis/1378183953625776138.png?size=128&quality=lossless"
+        },
+        {
+          "name": "Aggression",
+          "icon": "https://cdn.discordapp.com/emojis/1378196259617247313.png?size=128&quality=lossless"
+        }
+      ],
+      "weaponType": "Sword",
+      "pixelArt": "https://raw.githubusercontent.com/camelot-x/unit-art-images/main/pixel-art/E/L/003.png",
+      "detailAvailable": true
+    },
+    {
+      "id": "LR003",
+      "slug": "leonide",
+      "name": "Leonide",
+      "rarity": "Legendary",
+      "releaseOrder": 1,
+      "releaseDate": null,
+      "role": "Breaker",
+      "roleIcon": "https://cdn.discordapp.com/emojis/1378196065924419634.png?size=128&quality=lossless",
+      "factions": [
+        {
+          "name": "Papal States",
+          "icon": "https://cdn.discordapp.com/emojis/1378183897229164544.png?size=128&quality=lossless"
+        },
+        {
+          "name": "Discipline",
+          "icon": "https://cdn.discordapp.com/emojis/1378192387297513524.png?size=128&quality=lossless"
+        }
+      ],
+      "weaponType": "Spear",
+      "pixelArt": "https://raw.githubusercontent.com/camelot-x/unit-art-images/main/pixel-art/L/R/003.png",
+      "detailAvailable": true
+    },
+    {
+      "id": "LG003",
+      "slug": "teadon",
+      "name": "Teadon",
+      "rarity": "Legendary",
+      "releaseOrder": 1,
+      "releaseDate": null,
+      "role": "Defender",
+      "roleIcon": "https://cdn.discordapp.com/emojis/1378196077357826128.png?size=128&quality=lossless",
+      "factions": [
+        {
+          "name": "The Union",
+          "icon": "https://cdn.discordapp.com/emojis/1378183953625776138.png?size=128&quality=lossless"
+        },
+        {
+          "name": "Fortitude",
+          "icon": "https://cdn.discordapp.com/emojis/1378194533854220388.png?size=128&quality=lossless"
+        }
+      ],
+      "weaponType": "Sword",
+      "pixelArt": "https://raw.githubusercontent.com/camelot-x/unit-art-images/main/pixel-art/L/G/003.png",
+      "detailAvailable": true
+    },
+    {
+      "id": "LD003",
+      "slug": "guzman",
+      "name": "Guzman",
+      "rarity": "Legendary",
+      "releaseOrder": 1,
+      "releaseDate": null,
+      "role": "Destroyer",
+      "roleIcon": "https://cdn.discordapp.com/emojis/1378196070214930462.png?size=128&quality=lossless",
+      "factions": [
+        {
+          "name": "Drifter",
+          "icon": "https://cdn.discordapp.com/emojis/1378183853130121346.png?size=128&quality=lossless"
+        },
+        {
+          "name": "Aggression",
+          "icon": "https://cdn.discordapp.com/emojis/1378196259617247313.png?size=128&quality=lossless"
+        }
+      ],
+      "weaponType": "Axe",
+      "pixelArt": "https://raw.githubusercontent.com/camelot-x/unit-art-images/main/pixel-art/L/D/003.png",
+      "detailAvailable": true
+    },
+    {
+      "id": "LL003",
+      "slug": "samantha",
+      "name": "Samantha",
+      "rarity": "Legendary",
+      "releaseOrder": 1,
+      "releaseDate": null,
+      "role": "Watcher",
+      "roleIcon": "https://cdn.discordapp.com/emojis/1378196074556166257.png?size=128&quality=lossless",
+      "factions": [
+        {
+          "name": "Papal States",
+          "icon": "https://cdn.discordapp.com/emojis/1378183897229164544.png?size=128&quality=lossless"
+        },
+        {
+          "name": "Aggression",
+          "icon": "https://cdn.discordapp.com/emojis/1378196259617247313.png?size=128&quality=lossless"
+        }
+      ],
+      "weaponType": "Staff",
+      "pixelArt": "https://raw.githubusercontent.com/camelot-x/unit-art-images/main/pixel-art/L/L/003.png",
+      "detailAvailable": true
+    },
+    {
+      "id": "LL004",
+      "slug": "inanna",
+      "name": "Inanna",
+      "rarity": "Legendary",
+      "releaseOrder": 1,
+      "releaseDate": null,
+      "role": "Watcher",
+      "roleIcon": "https://cdn.discordapp.com/emojis/1378196074556166257.png?size=128&quality=lossless",
+      "factions": [
+        {
+          "name": "Iria",
+          "icon": "https://cdn.discordapp.com/emojis/1292007418506510378.png?size=128&quality=lossless"
+        },
+        {
+          "name": "Sword of Convallaria",
+          "icon": "https://cdn.discordapp.com/emojis/1378196243611783168.png?size=128&quality=lossless"
+        },
+        {
+          "name": "Discipline",
+          "icon": "https://cdn.discordapp.com/emojis/1378192387297513524.png?size=128&quality=lossless"
+        }
+      ],
+      "weaponType": "Staff",
+      "pixelArt": "https://raw.githubusercontent.com/camelot-x/unit-art-images/main/pixel-art/L/L/004.png",
+      "detailAvailable": true
+    },
+    {
+      "id": "RR003",
+      "slug": "papal-pikeman",
+      "name": "Papal Pikeman",
+      "rarity": "Rare",
+      "releaseOrder": 3,
+      "releaseDate": null,
+      "role": "Breaker",
+      "roleIcon": "https://cdn.discordapp.com/emojis/1378196065924419634.png?size=128&quality=lossless",
+      "factions": [
+        {
+          "name": "Papal States",
+          "icon": "https://cdn.discordapp.com/emojis/1378183897229164544.png?size=128&quality=lossless"
+        }
+      ],
+      "weaponType": "Axe",
+      "pixelArt": "https://raw.githubusercontent.com/camelot-x/unit-art-images/main/pixel-art/R/R/003.png",
+      "detailAvailable": true
+    },
+    {
+      "id": "RG003",
+      "slug": "papal-guard",
+      "name": "Papal Guard",
+      "rarity": "Rare",
+      "releaseOrder": 3,
+      "releaseDate": null,
+      "role": "Defender",
+      "roleIcon": "https://cdn.discordapp.com/emojis/1378196077357826128.png?size=128&quality=lossless",
+      "factions": [
+        {
+          "name": "Papal States",
+          "icon": "https://cdn.discordapp.com/emojis/1378183897229164544.png?size=128&quality=lossless"
+        }
+      ],
+      "weaponType": "Spear",
+      "pixelArt": "https://raw.githubusercontent.com/camelot-x/unit-art-images/main/pixel-art/R/G/003.png",
+      "detailAvailable": true
+    },
+    {
+      "id": "RD003",
+      "slug": "k-a-fire-conjurer",
+      "name": "K.A Fire Conjurer",
+      "rarity": "Rare",
+      "releaseOrder": 3,
+      "releaseDate": null,
+      "role": "Destroyer",
+      "roleIcon": "https://cdn.discordapp.com/emojis/1378196070214930462.png?size=128&quality=lossless",
+      "factions": [
+        {
+          "name": "Iria",
+          "icon": "https://cdn.discordapp.com/emojis/1292007418506510378.png?size=128&quality=lossless"
+        }
+      ],
+      "weaponType": "Staff",
+      "pixelArt": "https://raw.githubusercontent.com/camelot-x/unit-art-images/main/pixel-art/R/D/003.png",
+      "detailAvailable": true
+    },
+    {
+      "id": "RL003",
+      "slug": "papal-ice-priest",
+      "name": "Papal Ice Priest",
+      "rarity": "Rare",
+      "releaseOrder": 3,
+      "releaseDate": null,
+      "role": "Watcher",
+      "roleIcon": "https://cdn.discordapp.com/emojis/1378196074556166257.png?size=128&quality=lossless",
+      "factions": [
+        {
+          "name": "Papal States",
+          "icon": "https://cdn.discordapp.com/emojis/1378183897229164544.png?size=128&quality=lossless"
+        }
+      ],
+      "weaponType": "Bow",
+      "pixelArt": "https://raw.githubusercontent.com/camelot-x/unit-art-images/main/pixel-art/R/L/003.png",
+      "detailAvailable": true
+    },
+    {
+      "id": "ED004",
+      "slug": "lash",
+      "name": "Lash",
+      "rarity": "Epic",
+      "releaseOrder": 4,
+      "releaseDate": null,
+      "role": "Destroyer",
+      "roleIcon": "https://cdn.discordapp.com/emojis/1378196070214930462.png?size=128&quality=lossless",
+      "factions": [
+        {
+          "name": "Papal States",
+          "icon": "https://cdn.discordapp.com/emojis/1378183897229164544.png?size=128&quality=lossless"
+        },
+        {
+          "name": "Aggression",
+          "icon": "https://cdn.discordapp.com/emojis/1378196259617247313.png?size=128&quality=lossless"
+        }
+      ],
+      "weaponType": "",
+      "pixelArt": "https://raw.githubusercontent.com/camelot-x/unit-art-images/main/pixel-art/E/D/004.png",
+      "detailAvailable": true
+    },
+    {
+      "id": "EB004",
+      "slug": "stinger",
+      "name": "Stinger",
+      "rarity": "Epic",
+      "releaseOrder": 4,
+      "releaseDate": null,
+      "role": "Seeker",
+      "roleIcon": "https://cdn.discordapp.com/emojis/1378196062010867833.png?size=128&quality=lossless",
+      "factions": [
+        {
+          "name": "Iria",
+          "icon": "https://cdn.discordapp.com/emojis/1292007418506510378.png?size=128&quality=lossless"
+        },
+        {
+          "name": "Alacrity",
+          "icon": "https://cdn.discordapp.com/emojis/1378195389684912218.png?size=128&quality=lossless"
+        }
+      ],
+      "weaponType": "",
+      "pixelArt": "https://raw.githubusercontent.com/camelot-x/unit-art-images/main/pixel-art/E/B/004.png",
+      "detailAvailable": true
+    },
+    {
+      "id": "EL004",
+      "slug": "butterfly",
+      "name": "Butterfly",
+      "rarity": "Epic",
+      "releaseOrder": 4,
+      "releaseDate": null,
+      "role": "Watcher",
+      "roleIcon": "https://cdn.discordapp.com/emojis/1378196074556166257.png?size=128&quality=lossless",
+      "factions": [
+        {
+          "name": "Vlder",
+          "icon": "https://cdn.discordapp.com/emojis/1378183995883524096.png?size=128&quality=lossless"
+        },
+        {
+          "name": "Alacrity",
+          "icon": "https://cdn.discordapp.com/emojis/1378195389684912218.png?size=128&quality=lossless"
+        }
+      ],
+      "weaponType": "",
+      "pixelArt": "https://raw.githubusercontent.com/camelot-x/unit-art-images/main/pixel-art/E/L/004.png",
+      "detailAvailable": true
+    },
+    {
+      "id": "LB003",
+      "slug": "nonowill",
+      "name": "NonoWill",
+      "rarity": "Legendary",
+      "releaseOrder": 2,
+      "releaseDate": null,
+      "role": "Seeker",
+      "roleIcon": "https://cdn.discordapp.com/emojis/1378196062010867833.png?size=128&quality=lossless",
+      "factions": [
+        {
+          "name": "Vlder",
+          "icon": "https://cdn.discordapp.com/emojis/1378183995883524096.png?size=128&quality=lossless"
+        },
+        {
+          "name": "Sword of Convallaria",
+          "icon": "https://cdn.discordapp.com/emojis/1378196243611783168.png?size=128&quality=lossless"
+        },
+        {
+          "name": "Aggression",
+          "icon": "https://cdn.discordapp.com/emojis/1378196259617247313.png?size=128&quality=lossless"
+        }
+      ],
+      "weaponType": "Sword",
+      "pixelArt": "https://raw.githubusercontent.com/camelot-x/unit-art-images/main/pixel-art/L/B/003.png",
+      "detailAvailable": true
+    },
+    {
+      "id": "LL005",
+      "slug": "lilywill",
+      "name": "LilyWill",
+      "rarity": "Legendary",
+      "releaseOrder": 3,
+      "releaseDate": null,
+      "role": "Watcher",
+      "roleIcon": "https://cdn.discordapp.com/emojis/1378196074556166257.png?size=128&quality=lossless",
+      "factions": [
+        {
+          "name": "Vlder",
+          "icon": "https://cdn.discordapp.com/emojis/1378183995883524096.png?size=128&quality=lossless"
+        },
+        {
+          "name": "Alacrity",
+          "icon": "https://cdn.discordapp.com/emojis/1378195389684912218.png?size=128&quality=lossless"
+        }
+      ],
+      "weaponType": "Bow",
+      "pixelArt": "https://raw.githubusercontent.com/camelot-x/unit-art-images/main/pixel-art/L/L/005.png",
+      "detailAvailable": true
+    },
+    {
+      "id": "LL006",
+      "slug": "miguel",
+      "name": "Miguel",
+      "rarity": "Legendary",
+      "releaseOrder": 4,
+      "releaseDate": null,
+      "role": "Watcher",
+      "roleIcon": "https://cdn.discordapp.com/emojis/1378196074556166257.png?size=128&quality=lossless",
+      "factions": [
+        {
+          "name": "Papal States",
+          "icon": "https://cdn.discordapp.com/emojis/1378183897229164544.png?size=128&quality=lossless"
+        },
+        {
+          "name": "Drifter",
+          "icon": "https://cdn.discordapp.com/emojis/1378183853130121346.png?size=128&quality=lossless"
+        },
+        {
+          "name": "Discipline",
+          "icon": "https://cdn.discordapp.com/emojis/1378192387297513524.png?size=128&quality=lossless"
+        }
+      ],
+      "weaponType": "Bow",
+      "pixelArt": "https://raw.githubusercontent.com/camelot-x/unit-art-images/main/pixel-art/L/L/006.png",
+      "detailAvailable": true
+    },
+    {
+      "id": "LR004",
+      "slug": "iggy",
+      "name": "Iggy",
+      "rarity": "Legendary",
+      "releaseOrder": 5,
+      "releaseDate": null,
+      "role": "Breaker",
+      "roleIcon": "https://cdn.discordapp.com/emojis/1378196065924419634.png?size=128&quality=lossless",
+      "factions": [
+        {
+          "name": "Vlder",
+          "icon": "https://cdn.discordapp.com/emojis/1378183995883524096.png?size=128&quality=lossless"
+        },
+        {
+          "name": "Alacrity",
+          "icon": "https://cdn.discordapp.com/emojis/1378195389684912218.png?size=128&quality=lossless"
+        }
+      ],
+      "weaponType": "Spear",
+      "pixelArt": "https://raw.githubusercontent.com/camelot-x/unit-art-images/main/pixel-art/L/R/004.png",
+      "detailAvailable": true
+    },
+    {
+      "id": "LD004",
+      "slug": "nungal",
+      "name": "Nungal",
+      "rarity": "Legendary",
+      "releaseOrder": 6,
+      "releaseDate": null,
+      "role": "Destroyer",
+      "roleIcon": "https://cdn.discordapp.com/emojis/1378196070214930462.png?size=128&quality=lossless",
+      "factions": [
+        {
+          "name": "Iria",
+          "icon": "https://cdn.discordapp.com/emojis/1292007418506510378.png?size=128&quality=lossless"
+        },
+        {
+          "name": "Alacrity",
+          "icon": "https://cdn.discordapp.com/emojis/1378195389684912218.png?size=128&quality=lossless"
+        }
+      ],
+      "weaponType": "Bow",
+      "pixelArt": "https://raw.githubusercontent.com/camelot-x/unit-art-images/main/pixel-art/L/D/004.png",
+      "detailAvailable": true
+    },
+    {
+      "id": "ED005",
+      "slug": "night-raven",
+      "name": "Night Raven",
+      "rarity": "Epic",
+      "releaseOrder": 5,
+      "releaseDate": null,
+      "role": "Destroyer",
+      "roleIcon": "https://cdn.discordapp.com/emojis/1378196070214930462.png?size=128&quality=lossless",
+      "factions": [
+        {
+          "name": "Iria",
+          "icon": "https://cdn.discordapp.com/emojis/1292007418506510378.png?size=128&quality=lossless"
+        },
+        {
+          "name": "Alacrity",
+          "icon": "https://cdn.discordapp.com/emojis/1378195389684912218.png?size=128&quality=lossless"
+        }
+      ],
+      "weaponType": "Sword",
+      "pixelArt": "https://raw.githubusercontent.com/camelot-x/unit-art-images/main/pixel-art/E/D/005.png",
+      "detailAvailable": true
+    },
+    {
+      "id": "EL005",
+      "slug": "candlelight",
+      "name": "Candlelight",
+      "rarity": "Epic",
+      "releaseOrder": 5,
+      "releaseDate": null,
+      "role": "Watcher",
+      "roleIcon": "https://cdn.discordapp.com/emojis/1378196074556166257.png?size=128&quality=lossless",
+      "factions": [
+        {
+          "name": "Iria",
+          "icon": "https://cdn.discordapp.com/emojis/1292007418506510378.png?size=128&quality=lossless"
+        },
+        {
+          "name": "Discipline",
+          "icon": "https://cdn.discordapp.com/emojis/1378192387297513524.png?size=128&quality=lossless"
+        }
+      ],
+      "weaponType": "Bow",
+      "pixelArt": "https://raw.githubusercontent.com/camelot-x/unit-art-images/main/pixel-art/E/L/005.png",
+      "detailAvailable": true
+    },
+    {
+      "id": "LG004",
+      "slug": "nergal",
+      "name": "Nergal",
+      "rarity": "Legendary",
+      "releaseOrder": 7,
+      "releaseDate": null,
+      "role": "Defender",
+      "roleIcon": "https://cdn.discordapp.com/emojis/1378196077357826128.png?size=128&quality=lossless",
+      "factions": [
+        {
+          "name": "Iria",
+          "icon": "https://cdn.discordapp.com/emojis/1292007418506510378.png?size=128&quality=lossless"
+        },
+        {
+          "name": "Alacrity",
+          "icon": "https://cdn.discordapp.com/emojis/1378195389684912218.png?size=128&quality=lossless"
+        }
+      ],
+      "weaponType": "Sword",
+      "pixelArt": "https://raw.githubusercontent.com/camelot-x/unit-art-images/main/pixel-art/L/G/004.png",
+      "detailAvailable": true
+    },
+    {
+      "id": "LL007",
+      "slug": "edda",
+      "name": "Edda",
+      "rarity": "Legendary",
+      "releaseOrder": 8,
+      "releaseDate": null,
+      "role": "Watcher",
+      "roleIcon": "https://cdn.discordapp.com/emojis/1378196074556166257.png?size=128&quality=lossless",
+      "factions": [
+        {
+          "name": "Iria",
+          "icon": "https://cdn.discordapp.com/emojis/1292007418506510378.png?size=128&quality=lossless"
+        },
+        {
+          "name": "Drifter",
+          "icon": "https://cdn.discordapp.com/emojis/1378183853130121346.png?size=128&quality=lossless"
+        },
+        {
+          "name": "Discipline",
+          "icon": "https://cdn.discordapp.com/emojis/1378192387297513524.png?size=128&quality=lossless"
+        }
+      ],
+      "weaponType": "Bow",
+      "pixelArt": "https://raw.githubusercontent.com/camelot-x/unit-art-images/main/pixel-art/L/L/007.png",
+      "detailAvailable": true
+    },
+    {
+      "id": "LD005",
+      "slug": "momo",
+      "name": "Momo",
+      "rarity": "Legendary",
+      "releaseOrder": 9,
+      "releaseDate": null,
+      "role": "Destroyer",
+      "roleIcon": "https://cdn.discordapp.com/emojis/1378196070214930462.png?size=128&quality=lossless",
+      "factions": [
+        {
+          "name": "Vlder",
+          "icon": "https://cdn.discordapp.com/emojis/1378183995883524096.png?size=128&quality=lossless"
+        },
+        {
+          "name": "Sword of Convallaria",
+          "icon": "https://cdn.discordapp.com/emojis/1378196243611783168.png?size=128&quality=lossless"
+        },
+        {
+          "name": "Fortitude",
+          "icon": "https://cdn.discordapp.com/emojis/1378194533854220388.png?size=128&quality=lossless"
+        }
+      ],
+      "weaponType": "Staff",
+      "pixelArt": "https://raw.githubusercontent.com/camelot-x/unit-art-images/main/pixel-art/L/D/005.png",
+      "detailAvailable": true
+    },
+    {
+      "id": "LG005",
+      "slug": "alexei",
+      "name": "Alexei",
+      "rarity": "Legendary",
+      "releaseOrder": 10,
+      "releaseDate": null,
+      "role": "Defender",
+      "roleIcon": "https://cdn.discordapp.com/emojis/1378196077357826128.png?size=128&quality=lossless",
+      "factions": [
+        {
+          "name": "Drifter",
+          "icon": "https://cdn.discordapp.com/emojis/1378183853130121346.png?size=128&quality=lossless"
+        },
+        {
+          "name": "Aggression",
+          "icon": "https://cdn.discordapp.com/emojis/1378196259617247313.png?size=128&quality=lossless"
+        }
+      ],
+      "weaponType": "Axe",
+      "pixelArt": "https://raw.githubusercontent.com/camelot-x/unit-art-images/main/pixel-art/L/G/005.png",
+      "detailAvailable": true
+    },
+    {
+      "id": "LL008",
+      "slug": "simona",
+      "name": "Simona",
+      "rarity": "Legendary",
+      "releaseOrder": 11,
+      "releaseDate": null,
+      "role": "Watcher",
+      "roleIcon": "https://cdn.discordapp.com/emojis/1378196074556166257.png?size=128&quality=lossless",
+      "factions": [
+        {
+          "name": "The Union",
+          "icon": "https://cdn.discordapp.com/emojis/1378183953625776138.png?size=128&quality=lossless"
+        },
+        {
+          "name": "Discipline",
+          "icon": "https://cdn.discordapp.com/emojis/1378192387297513524.png?size=128&quality=lossless"
+        }
+      ],
+      "weaponType": "Staff",
+      "pixelArt": "https://raw.githubusercontent.com/camelot-x/unit-art-images/main/pixel-art/L/L/008.png",
+      "detailAvailable": true
+    },
+    {
+      "id": "ED006",
+      "slug": "dark-light",
+      "name": "Dark Light",
+      "rarity": "Epic",
+      "releaseOrder": 6,
+      "releaseDate": null,
+      "role": "Destroyer",
+      "roleIcon": "https://cdn.discordapp.com/emojis/1378196070214930462.png?size=128&quality=lossless",
+      "factions": [
+        {
+          "name": "Night Crimson",
+          "icon": "https://cdn.discordapp.com/emojis/1378195412447658015.png?size=128&quality=lossless"
+        },
+        {
+          "name": "Iria",
+          "icon": "https://cdn.discordapp.com/emojis/1292007418506510378.png?size=128&quality=lossless"
+        },
+        {
+          "name": "Alacrity",
+          "icon": "https://cdn.discordapp.com/emojis/1378195389684912218.png?size=128&quality=lossless"
+        }
+      ],
+      "weaponType": "Axe",
+      "pixelArt": "https://raw.githubusercontent.com/camelot-x/unit-art-images/main/pixel-art/E/D/006.png",
+      "detailAvailable": true
+    },
+    {
+      "id": "EL006",
+      "slug": "divine-grace",
+      "name": "Divine Grace",
+      "rarity": "Epic",
+      "releaseOrder": 6,
+      "releaseDate": null,
+      "role": "Watcher",
+      "roleIcon": "https://cdn.discordapp.com/emojis/1378196074556166257.png?size=128&quality=lossless",
+      "factions": [
+        {
+          "name": "Papal States",
+          "icon": "https://cdn.discordapp.com/emojis/1378183897229164544.png?size=128&quality=lossless"
+        },
+        {
+          "name": "Discipline",
+          "icon": "https://cdn.discordapp.com/emojis/1378192387297513524.png?size=128&quality=lossless"
+        }
+      ],
+      "weaponType": "Staff",
+      "pixelArt": "https://raw.githubusercontent.com/camelot-x/unit-art-images/main/pixel-art/E/L/006.png",
+      "detailAvailable": true
+    },
+    {
+      "id": "LR005",
+      "slug": "auguste",
+      "name": "Auguste",
+      "rarity": "Legendary",
+      "releaseOrder": 12,
+      "releaseDate": null,
+      "role": "Breaker",
+      "roleIcon": "https://cdn.discordapp.com/emojis/1378196065924419634.png?size=128&quality=lossless",
+      "factions": [
+        {
+          "name": "The Union",
+          "icon": "https://cdn.discordapp.com/emojis/1378183953625776138.png?size=128&quality=lossless"
+        },
+        {
+          "name": "Aggression",
+          "icon": "https://cdn.discordapp.com/emojis/1378196259617247313.png?size=128&quality=lossless"
+        }
+      ],
+      "weaponType": "Axe",
+      "pixelArt": "https://raw.githubusercontent.com/camelot-x/unit-art-images/main/pixel-art/L/R/005.png",
+      "detailAvailable": true
+    },
+    {
+      "id": "LB004",
+      "slug": "saffiyah",
+      "name": "Saffiyah",
+      "rarity": "Legendary",
+      "releaseOrder": 13,
+      "releaseDate": null,
+      "role": "Seeker",
+      "roleIcon": "https://cdn.discordapp.com/emojis/1378196062010867833.png?size=128&quality=lossless",
+      "factions": [
+        {
+          "name": "Iria",
+          "icon": "https://cdn.discordapp.com/emojis/1292007418506510378.png?size=128&quality=lossless"
+        },
+        {
+          "name": "Discipline",
+          "icon": "https://cdn.discordapp.com/emojis/1378192387297513524.png?size=128&quality=lossless"
+        }
+      ],
+      "weaponType": "Sword",
+      "pixelArt": "https://raw.githubusercontent.com/camelot-x/unit-art-images/main/pixel-art/L/B/004.png",
+      "detailAvailable": true
+    },
+    {
+      "id": "LG006",
+      "slug": "cocoa",
+      "name": "Cocoa",
+      "rarity": "Legendary",
+      "releaseOrder": 14,
+      "releaseDate": null,
+      "role": "Defender",
+      "roleIcon": "https://cdn.discordapp.com/emojis/1378196077357826128.png?size=128&quality=lossless",
+      "factions": [
+        {
+          "name": "Vlder",
+          "icon": "https://cdn.discordapp.com/emojis/1378183995883524096.png?size=128&quality=lossless"
+        },
+        {
+          "name": "Fortitude",
+          "icon": "https://cdn.discordapp.com/emojis/1378194533854220388.png?size=128&quality=lossless"
+        }
+      ],
+      "weaponType": "Axe",
+      "pixelArt": "https://raw.githubusercontent.com/camelot-x/unit-art-images/main/pixel-art/L/G/006.png",
+      "detailAvailable": true
+    },
+    {
+      "id": "LD006",
+      "slug": "acambe",
+      "name": "Acambe",
+      "rarity": "Legendary",
+      "releaseOrder": 15,
+      "releaseDate": null,
+      "role": "Destroyer",
+      "roleIcon": "https://cdn.discordapp.com/emojis/1378196070214930462.png?size=128&quality=lossless",
+      "factions": [
+        {
+          "name": "Elaman",
+          "icon": ""
+        },
+        {
+          "name": "Drifter",
+          "icon": "https://cdn.discordapp.com/emojis/1378183853130121346.png?size=128&quality=lossless"
+        },
+        {
+          "name": "Discipline",
+          "icon": "https://cdn.discordapp.com/emojis/1378192387297513524.png?size=128&quality=lossless"
+        }
+      ],
+      "weaponType": "Staff",
+      "pixelArt": "https://raw.githubusercontent.com/camelot-x/unit-art-images/main/pixel-art/L/D/006.png",
+      "detailAvailable": true
+    },
+    {
+      "id": "LB005",
+      "slug": "hasna",
+      "name": "Hasna",
+      "rarity": "Legendary",
+      "releaseOrder": 16,
+      "releaseDate": null,
+      "role": "Seeker",
+      "roleIcon": "https://cdn.discordapp.com/emojis/1378196062010867833.png?size=128&quality=lossless",
+      "factions": [
+        {
+          "name": "Elaman",
+          "icon": ""
+        },
+        {
+          "name": "Drifter",
+          "icon": "https://cdn.discordapp.com/emojis/1378183853130121346.png?size=128&quality=lossless"
+        },
+        {
+          "name": "Alacrity",
+          "icon": "https://cdn.discordapp.com/emojis/1378195389684912218.png?size=128&quality=lossless"
+        }
+      ],
+      "weaponType": "Staff",
+      "pixelArt": "https://raw.githubusercontent.com/camelot-x/unit-art-images/main/pixel-art/L/B/005.png",
+      "detailAvailable": true
+    },
+    {
+      "id": "EL007",
+      "slug": "flare",
+      "name": "Flare",
+      "rarity": "Epic",
+      "releaseOrder": 7,
+      "releaseDate": null,
+      "role": "Watcher",
+      "roleIcon": "https://cdn.discordapp.com/emojis/1378196074556166257.png?size=128&quality=lossless",
+      "factions": [
+        {
+          "name": "The Union",
+          "icon": "https://cdn.discordapp.com/emojis/1378183953625776138.png?size=128&quality=lossless"
+        },
+        {
+          "name": "Fortitude",
+          "icon": "https://cdn.discordapp.com/emojis/1378194533854220388.png?size=128&quality=lossless"
+        }
+      ],
+      "weaponType": "",
+      "pixelArt": "https://raw.githubusercontent.com/camelot-x/unit-art-images/main/pixel-art/E/L/007.png",
+      "detailAvailable": true
+    },
+    {
+      "id": "LR006",
+      "slug": "homa",
+      "name": "Homa",
+      "rarity": "Legendary",
+      "releaseOrder": 17,
+      "releaseDate": null,
+      "role": "Breaker",
+      "roleIcon": "https://cdn.discordapp.com/emojis/1378196065924419634.png?size=128&quality=lossless",
+      "factions": [
+        {
+          "name": "Elaman",
+          "icon": ""
+        },
+        {
+          "name": "Drifter",
+          "icon": "https://cdn.discordapp.com/emojis/1378183853130121346.png?size=128&quality=lossless"
+        },
+        {
+          "name": "Aggression",
+          "icon": "https://cdn.discordapp.com/emojis/1378196259617247313.png?size=128&quality=lossless"
+        }
+      ],
+      "weaponType": "Bow",
+      "pixelArt": "https://raw.githubusercontent.com/camelot-x/unit-art-images/main/pixel-art/L/R/006.png",
+      "detailAvailable": true
+    },
+    {
+      "id": "LD007",
+      "slug": "caris",
+      "name": "Caris",
+      "rarity": "Legendary",
+      "releaseOrder": 18,
+      "releaseDate": null,
+      "role": "Destroyer",
+      "roleIcon": "https://cdn.discordapp.com/emojis/1378196070214930462.png?size=128&quality=lossless",
+      "factions": [
+        {
+          "name": "Papal States",
+          "icon": "https://cdn.discordapp.com/emojis/1378183897229164544.png?size=128&quality=lossless"
+        },
+        {
+          "name": "Aggression",
+          "icon": "https://cdn.discordapp.com/emojis/1378196259617247313.png?size=128&quality=lossless"
+        }
+      ],
+      "weaponType": "Staff",
+      "pixelArt": "https://raw.githubusercontent.com/camelot-x/unit-art-images/main/pixel-art/L/D/007.png",
+      "detailAvailable": true
+    },
+    {
+      "id": "LB006",
+      "slug": "shacklulu",
+      "name": "Shacklulu",
+      "rarity": "Legendary",
+      "releaseOrder": 19,
+      "releaseDate": null,
+      "role": "Seeker",
+      "roleIcon": "https://cdn.discordapp.com/emojis/1378196062010867833.png?size=128&quality=lossless",
+      "factions": [
+        {
+          "name": "Vlder",
+          "icon": "https://cdn.discordapp.com/emojis/1378183995883524096.png?size=128&quality=lossless"
+        },
+        {
+          "name": "Alacrity",
+          "icon": "https://cdn.discordapp.com/emojis/1378195389684912218.png?size=128&quality=lossless"
+        }
+      ],
+      "weaponType": "Sword",
+      "pixelArt": "https://raw.githubusercontent.com/camelot-x/unit-art-images/main/pixel-art/L/B/006.png",
+      "detailAvailable": true
+    },
+    {
+      "id": "LL009",
+      "slug": "agatha",
+      "name": "Agatha",
+      "rarity": "Legendary",
+      "releaseOrder": 20,
+      "releaseDate": null,
+      "role": "Watcher",
+      "roleIcon": "https://cdn.discordapp.com/emojis/1378196074556166257.png?size=128&quality=lossless",
+      "factions": [
+        {
+          "name": "Drifter",
+          "icon": "https://cdn.discordapp.com/emojis/1378183853130121346.png?size=128&quality=lossless"
+        },
+        {
+          "name": "Alacrity",
+          "icon": "https://cdn.discordapp.com/emojis/1378195389684912218.png?size=128&quality=lossless"
+        }
+      ],
+      "weaponType": "Sword",
+      "pixelArt": "https://raw.githubusercontent.com/camelot-x/unit-art-images/main/pixel-art/L/L/009.png",
+      "detailAvailable": true
+    },
+    {
+      "id": "LL010",
+      "slug": "taair",
+      "name": "Taair",
+      "rarity": "Legendary",
+      "releaseOrder": 21,
+      "releaseDate": null,
+      "role": "Watcher",
+      "roleIcon": "https://cdn.discordapp.com/emojis/1378196074556166257.png?size=128&quality=lossless",
+      "factions": [
+        {
+          "name": "Papal States",
+          "icon": "https://cdn.discordapp.com/emojis/1378183897229164544.png?size=128&quality=lossless"
+        },
+        {
+          "name": "Discipline",
+          "icon": "https://cdn.discordapp.com/emojis/1378192387297513524.png?size=128&quality=lossless"
+        }
+      ],
+      "weaponType": "Staff",
+      "pixelArt": "https://raw.githubusercontent.com/camelot-x/unit-art-images/main/pixel-art/L/L/010.png",
+      "detailAvailable": true
+    },
+    {
+      "id": "EL008",
+      "slug": "nightingale",
+      "name": "Nightingale",
+      "rarity": "Epic",
+      "releaseOrder": 8,
+      "releaseDate": null,
+      "role": "Watcher",
+      "roleIcon": "https://cdn.discordapp.com/emojis/1378196074556166257.png?size=128&quality=lossless",
+      "factions": [
+        {
+          "name": "Drifter",
+          "icon": "https://cdn.discordapp.com/emojis/1378183853130121346.png?size=128&quality=lossless"
+        },
+        {
+          "name": "Fortitude",
+          "icon": "https://cdn.discordapp.com/emojis/1378194533854220388.png?size=128&quality=lossless"
+        }
+      ],
+      "weaponType": "Staff",
+      "pixelArt": "https://raw.githubusercontent.com/camelot-x/unit-art-images/main/pixel-art/E/L/008.png",
+      "detailAvailable": true
+    },
+    {
+      "id": "LB007",
+      "slug": "rawiyah-nostalgia",
+      "name": "Rawiyah - Nostalgia",
+      "rarity": "Legendary",
+      "releaseOrder": 22,
+      "releaseDate": null,
+      "role": "Seeker",
+      "roleIcon": "https://cdn.discordapp.com/emojis/1378196062010867833.png?size=128&quality=lossless",
+      "factions": [
+        {
+          "name": "Night Crimson",
+          "icon": "https://cdn.discordapp.com/emojis/1378195412447658015.png?size=128&quality=lossless"
+        },
+        {
+          "name": "Iria",
+          "icon": "https://cdn.discordapp.com/emojis/1292007418506510378.png?size=128&quality=lossless"
+        },
+        {
+          "name": "Aggression",
+          "icon": "https://cdn.discordapp.com/emojis/1378196259617247313.png?size=128&quality=lossless"
+        }
+      ],
+      "weaponType": "Axe",
+      "pixelArt": "https://raw.githubusercontent.com/camelot-x/unit-art-images/main/pixel-art/L/B/007.png",
+      "detailAvailable": true
+    },
+    {
+      "id": "LR007",
+      "slug": "pamina",
+      "name": "Pamina",
+      "rarity": "Legendary",
+      "releaseOrder": 23,
+      "releaseDate": null,
+      "role": "Breaker",
+      "roleIcon": "https://cdn.discordapp.com/emojis/1378196065924419634.png?size=128&quality=lossless",
+      "factions": [
+        {
+          "name": "Night Crimson",
+          "icon": "https://cdn.discordapp.com/emojis/1378195412447658015.png?size=128&quality=lossless"
+        },
+        {
+          "name": "Iria",
+          "icon": "https://cdn.discordapp.com/emojis/1292007418506510378.png?size=128&quality=lossless"
+        },
+        {
+          "name": "Fortitude",
+          "icon": "https://cdn.discordapp.com/emojis/1378194533854220388.png?size=128&quality=lossless"
+        }
+      ],
+      "weaponType": "Spear",
+      "pixelArt": "https://raw.githubusercontent.com/camelot-x/unit-art-images/main/pixel-art/L/R/007.png",
+      "detailAvailable": true
+    },
+    {
+      "id": "LD008",
+      "slug": "tristan",
+      "name": "Tristan",
+      "rarity": "Legendary",
+      "releaseOrder": 24,
+      "releaseDate": null,
+      "role": "Destroyer",
+      "roleIcon": "https://cdn.discordapp.com/emojis/1378196070214930462.png?size=128&quality=lossless",
+      "factions": [
+        {
+          "name": "Night Crimson",
+          "icon": "https://cdn.discordapp.com/emojis/1378195412447658015.png?size=128&quality=lossless"
+        },
+        {
+          "name": "The Union",
+          "icon": "https://cdn.discordapp.com/emojis/1378183953625776138.png?size=128&quality=lossless"
+        },
+        {
+          "name": "Aggression",
+          "icon": "https://cdn.discordapp.com/emojis/1378196259617247313.png?size=128&quality=lossless"
+        }
+      ],
+      "weaponType": "Axe",
+      "pixelArt": "https://raw.githubusercontent.com/camelot-x/unit-art-images/main/pixel-art/L/D/008.png",
+      "detailAvailable": true
+    },
+    {
+      "id": "LG007",
+      "slug": "layla",
+      "name": "Layla",
+      "rarity": "Legendary",
+      "releaseOrder": 25,
+      "releaseDate": null,
+      "role": "Defender",
+      "roleIcon": "https://cdn.discordapp.com/emojis/1378196077357826128.png?size=128&quality=lossless",
+      "factions": [
+        {
+          "name": "Night Crimson",
+          "icon": "https://cdn.discordapp.com/emojis/1378195412447658015.png?size=128&quality=lossless"
+        },
+        {
+          "name": "Iria",
+          "icon": "https://cdn.discordapp.com/emojis/1292007418506510378.png?size=128&quality=lossless"
+        },
+        {
+          "name": "Discipline",
+          "icon": "https://cdn.discordapp.com/emojis/1378192387297513524.png?size=128&quality=lossless"
+        }
+      ],
+      "weaponType": "Sword",
+      "pixelArt": "https://raw.githubusercontent.com/camelot-x/unit-art-images/main/pixel-art/L/G/007.png",
+      "detailAvailable": true
+    },
+    {
+      "id": "LL011",
+      "slug": "saffiyah-promise",
+      "name": "Saffiyah - Promise",
+      "rarity": "Legendary",
+      "releaseOrder": 25,
+      "releaseDate": null,
+      "role": "Watcher",
+      "roleIcon": "https://cdn.discordapp.com/emojis/1378196074556166257.png?size=128&quality=lossless",
+      "factions": [
+        {
+          "name": "Night Crimson",
+          "icon": "https://cdn.discordapp.com/emojis/1378195412447658015.png?size=128&quality=lossless"
+        },
+        {
+          "name": "Iria",
+          "icon": "https://cdn.discordapp.com/emojis/1292007418506510378.png?size=128&quality=lossless"
+        },
+        {
+          "name": "Discipline",
+          "icon": "https://cdn.discordapp.com/emojis/1378192387297513524.png?size=128&quality=lossless"
+        }
+      ],
+      "weaponType": "Sword",
+      "pixelArt": "https://raw.githubusercontent.com/camelot-x/unit-art-images/main/pixel-art/L/L/011.png",
+      "detailAvailable": true
+    },
+    {
+      "id": "EL009",
+      "slug": "bitter-medicine",
+      "name": "Bitter Medicine",
+      "rarity": "Epic",
+      "releaseOrder": 9,
+      "releaseDate": null,
+      "role": "Watcher",
+      "roleIcon": "https://cdn.discordapp.com/emojis/1378196074556166257.png?size=128&quality=lossless",
+      "factions": [
+        {
+          "name": "Night Crimson",
+          "icon": "https://cdn.discordapp.com/emojis/1378195412447658015.png?size=128&quality=lossless"
+        },
+        {
+          "name": "Iria",
+          "icon": "https://cdn.discordapp.com/emojis/1292007418506510378.png?size=128&quality=lossless"
+        },
+        {
+          "name": "Discipline",
+          "icon": "https://cdn.discordapp.com/emojis/1378192387297513524.png?size=128&quality=lossless"
+        }
+      ],
+      "weaponType": "Sword",
+      "pixelArt": "https://raw.githubusercontent.com/camelot-x/unit-art-images/main/pixel-art/E/L/009.png",
+      "detailAvailable": true
+    },
+    {
+      "id": "LD009",
+      "slug": "kiya",
+      "name": "Kiya",
+      "rarity": "Legendary",
+      "releaseOrder": 26,
+      "releaseDate": null,
+      "role": "Destroyer",
+      "roleIcon": "https://cdn.discordapp.com/emojis/1378196070214930462.png?size=128&quality=lossless",
+      "factions": [
+        {
+          "name": "Night Crimson",
+          "icon": "https://cdn.discordapp.com/emojis/1378195412447658015.png?size=128&quality=lossless"
+        },
+        {
+          "name": "Vlder",
+          "icon": "https://cdn.discordapp.com/emojis/1378183995883524096.png?size=128&quality=lossless"
+        },
+        {
+          "name": "Alacrity",
+          "icon": "https://cdn.discordapp.com/emojis/1378195389684912218.png?size=128&quality=lossless"
+        }
+      ],
+      "weaponType": "Sword",
+      "pixelArt": "https://raw.githubusercontent.com/camelot-x/unit-art-images/main/pixel-art/L/D/009.png",
+      "detailAvailable": true
+    },
+    {
+      "id": "LD010",
+      "slug": "kvare",
+      "name": "Kvare",
+      "rarity": "Legendary",
+      "releaseOrder": 27,
+      "releaseDate": null,
+      "role": "Destroyer",
+      "roleIcon": "https://cdn.discordapp.com/emojis/1378196070214930462.png?size=128&quality=lossless",
+      "factions": [
+        {
+          "name": "Iria",
+          "icon": "https://cdn.discordapp.com/emojis/1292007418506510378.png?size=128&quality=lossless"
+        },
+        {
+          "name": "Night Crimson",
+          "icon": "https://cdn.discordapp.com/emojis/1378195412447658015.png?size=128&quality=lossless"
+        },
+        {
+          "name": "Fortitude",
+          "icon": "https://cdn.discordapp.com/emojis/1378194533854220388.png?size=128&quality=lossless"
+        }
+      ],
+      "weaponType": "Staff",
+      "pixelArt": "https://raw.githubusercontent.com/camelot-x/unit-art-images/main/pixel-art/L/D/010.png",
+      "detailAvailable": true
+    },
+    {
+      "id": "LR008",
+      "slug": "luvata",
+      "name": "Luvata",
+      "rarity": "Legendary",
+      "releaseOrder": 28,
+      "releaseDate": null,
+      "role": "Breaker",
+      "roleIcon": "https://cdn.discordapp.com/emojis/1378196065924419634.png?size=128&quality=lossless",
+      "factions": [
+        {
+          "name": "Papal States",
+          "icon": "https://cdn.discordapp.com/emojis/1378183897229164544.png?size=128&quality=lossless"
+        },
+        {
+          "name": "Aggression",
+          "icon": "https://cdn.discordapp.com/emojis/1378196259617247313.png?size=128&quality=lossless"
+        }
+      ],
+      "weaponType": "Staff",
+      "pixelArt": "https://raw.githubusercontent.com/camelot-x/unit-art-images/main/pixel-art/L/R/008.png",
+      "detailAvailable": true
+    },
+    {
+      "id": "LB008",
+      "slug": "estra",
+      "name": "Estra",
+      "rarity": "Legendary",
+      "releaseOrder": 29,
+      "releaseDate": null,
+      "role": "Seeker",
+      "roleIcon": "https://cdn.discordapp.com/emojis/1378196062010867833.png?size=128&quality=lossless",
+      "factions": [
+        {
+          "name": "Drifter",
+          "icon": "https://cdn.discordapp.com/emojis/1378183853130121346.png?size=128&quality=lossless"
+        },
+        {
+          "name": "Alacrity",
+          "icon": "https://cdn.discordapp.com/emojis/1378195389684912218.png?size=128&quality=lossless"
+        }
+      ],
+      "weaponType": "Sword",
+      "pixelArt": "https://raw.githubusercontent.com/camelot-x/unit-art-images/main/pixel-art/L/B/008.png",
+      "detailAvailable": true
+    },
+    {
+      "id": "LG008",
+      "slug": "flavia",
+      "name": "Flavia",
+      "rarity": "Legendary",
+      "releaseOrder": 30,
+      "releaseDate": null,
+      "role": "Defender",
+      "roleIcon": "https://cdn.discordapp.com/emojis/1378196077357826128.png?size=128&quality=lossless",
+      "factions": [
+        {
+          "name": "Drifter",
+          "icon": "https://cdn.discordapp.com/emojis/1378183853130121346.png?size=128&quality=lossless"
+        },
+        {
+          "name": "Discipline",
+          "icon": "https://cdn.discordapp.com/emojis/1378192387297513524.png?size=128&quality=lossless"
+        }
+      ],
+      "weaponType": "Staff",
+      "pixelArt": "https://raw.githubusercontent.com/camelot-x/unit-art-images/main/pixel-art/L/G/008.png",
+      "detailAvailable": true
+    },
+    {
+      "id": "LL012",
+      "slug": "team-meteor",
+      "name": "Team Meteor",
+      "rarity": "Legendary",
+      "releaseOrder": 31,
+      "releaseDate": null,
+      "role": "Watcher",
+      "roleIcon": "https://cdn.discordapp.com/emojis/1378196074556166257.png?size=128&quality=lossless",
+      "factions": [
+        {
+          "name": "Papal States",
+          "icon": "https://cdn.discordapp.com/emojis/1378183897229164544.png?size=128&quality=lossless"
+        },
+        {
+          "name": "Fortitude",
+          "icon": "https://cdn.discordapp.com/emojis/1378194533854220388.png?size=128&quality=lossless"
+        }
+      ],
+      "weaponType": "Axe",
+      "pixelArt": "https://raw.githubusercontent.com/camelot-x/unit-art-images/main/pixel-art/L/L/012.png",
+      "detailAvailable": true
+    },
+    {
+      "id": "LB009",
+      "slug": "lutfi",
+      "name": "Lutfi",
+      "rarity": "Legendary",
+      "releaseOrder": 32,
+      "releaseDate": null,
+      "role": "Seeker",
+      "roleIcon": "https://cdn.discordapp.com/emojis/1378196062010867833.png?size=128&quality=lossless",
+      "factions": [
+        {
+          "name": "Iria",
+          "icon": "https://cdn.discordapp.com/emojis/1292007418506510378.png?size=128&quality=lossless"
+        },
+        {
+          "name": "The Union",
+          "icon": "https://cdn.discordapp.com/emojis/1378183953625776138.png?size=128&quality=lossless"
+        },
+        {
+          "name": "Alacrity",
+          "icon": "https://cdn.discordapp.com/emojis/1378195389684912218.png?size=128&quality=lossless"
+        }
+      ],
+      "weaponType": "Sword",
+      "pixelArt": "https://raw.githubusercontent.com/camelot-x/unit-art-images/main/pixel-art/L/B/009.png",
+      "detailAvailable": true
+    },
+    {
+      "id": "LG009",
+      "slug": "ayishah",
+      "name": "Ayishah",
+      "rarity": "Legendary",
+      "releaseOrder": 33,
+      "releaseDate": null,
+      "role": "Defender",
+      "roleIcon": "https://cdn.discordapp.com/emojis/1378196077357826128.png?size=128&quality=lossless",
+      "factions": [
+        {
+          "name": "Iria",
+          "icon": "https://cdn.discordapp.com/emojis/1292007418506510378.png?size=128&quality=lossless"
+        },
+        {
+          "name": "Fortitude",
+          "icon": "https://cdn.discordapp.com/emojis/1378194533854220388.png?size=128&quality=lossless"
+        }
+      ],
+      "weaponType": "Sword",
+      "pixelArt": "https://raw.githubusercontent.com/camelot-x/unit-art-images/main/pixel-art/L/G/009.png",
+      "detailAvailable": true
+    },
+    {
+      "id": "LD011",
+      "slug": "afra",
+      "name": "Afra",
+      "rarity": "Legendary",
+      "releaseOrder": 34,
+      "releaseDate": null,
+      "role": "Destroyer",
+      "roleIcon": "https://cdn.discordapp.com/emojis/1378196070214930462.png?size=128&quality=lossless",
+      "factions": [
+        {
+          "name": "Drifter",
+          "icon": "https://cdn.discordapp.com/emojis/1378183853130121346.png?size=128&quality=lossless"
+        },
+        {
+          "name": "Fortitude",
+          "icon": "https://cdn.discordapp.com/emojis/1378194533854220388.png?size=128&quality=lossless"
+        }
+      ],
+      "weaponType": "Staff",
+      "pixelArt": "https://raw.githubusercontent.com/camelot-x/unit-art-images/main/pixel-art/L/D/011.png",
+      "detailAvailable": true
+    },
+    {
+      "id": "LL013",
+      "slug": "inanna-of-convallaria",
+      "name": "Inanna of Convallaria",
+      "rarity": "Legendary",
+      "releaseOrder": 35,
+      "releaseDate": null,
+      "role": "Watcher",
+      "roleIcon": "https://cdn.discordapp.com/emojis/1378196074556166257.png?size=128&quality=lossless",
+      "factions": [
+        {
+          "name": "Sword of Convallaria",
+          "icon": "https://cdn.discordapp.com/emojis/1378196243611783168.png?size=128&quality=lossless"
+        },
+        {
+          "name": "Iria",
+          "icon": "https://cdn.discordapp.com/emojis/1292007418506510378.png?size=128&quality=lossless"
+        },
+        {
+          "name": "Fortitude",
+          "icon": "https://cdn.discordapp.com/emojis/1378194533854220388.png?size=128&quality=lossless"
+        }
+      ],
+      "weaponType": "Sword",
+      "pixelArt": "https://raw.githubusercontent.com/camelot-x/unit-art-images/main/pixel-art/L/L/013.png",
+      "detailAvailable": true
+    },
+    {
+      "id": "LB010",
+      "slug": "nydia",
+      "name": "Nydia",
+      "rarity": "Legendary",
+      "releaseOrder": 36,
+      "releaseDate": null,
+      "role": "Seeker",
+      "roleIcon": "https://cdn.discordapp.com/emojis/1378196062010867833.png?size=128&quality=lossless",
+      "factions": [
+        {
+          "name": "The Union",
+          "icon": "https://cdn.discordapp.com/emojis/1378183953625776138.png?size=128&quality=lossless"
+        },
+        {
+          "name": "Alacrity",
+          "icon": "https://cdn.discordapp.com/emojis/1378195389684912218.png?size=128&quality=lossless"
+        }
+      ],
+      "weaponType": "Bow",
+      "pixelArt": "https://raw.githubusercontent.com/camelot-x/unit-art-images/main/pixel-art/L/B/010.png",
+      "detailAvailable": true
+    },
+    {
+      "id": "LR009",
+      "slug": "senshi",
+      "name": "Senshi",
+      "rarity": "Legendary",
+      "releaseOrder": 37,
+      "releaseDate": null,
+      "role": "Breaker",
+      "roleIcon": "https://cdn.discordapp.com/emojis/1378196065924419634.png?size=128&quality=lossless",
+      "factions": [
+        {
+          "name": "Drifter",
+          "icon": "https://cdn.discordapp.com/emojis/1378183853130121346.png?size=128&quality=lossless"
+        },
+        {
+          "name": "Discipline",
+          "icon": "https://cdn.discordapp.com/emojis/1378192387297513524.png?size=128&quality=lossless"
+        }
+      ],
+      "weaponType": "Axe",
+      "pixelArt": "https://raw.githubusercontent.com/camelot-x/unit-art-images/main/pixel-art/L/R/009.png",
+      "detailAvailable": true
+    },
+    {
+      "id": "LD012",
+      "slug": "marcille",
+      "name": "Marcille",
+      "rarity": "Legendary",
+      "releaseOrder": 37,
+      "releaseDate": null,
+      "role": "Destroyer",
+      "roleIcon": "https://cdn.discordapp.com/emojis/1378196070214930462.png?size=128&quality=lossless",
+      "factions": [
+        {
+          "name": "Drifter",
+          "icon": "https://cdn.discordapp.com/emojis/1378183853130121346.png?size=128&quality=lossless"
+        },
+        {
+          "name": "Aggression",
+          "icon": "https://cdn.discordapp.com/emojis/1378196259617247313.png?size=128&quality=lossless"
+        }
+      ],
+      "weaponType": "Staff",
+      "pixelArt": "https://raw.githubusercontent.com/camelot-x/unit-art-images/main/pixel-art/L/D/012.png",
+      "detailAvailable": true
+    },
+    {
+      "id": "LL014",
+      "slug": "fallin",
+      "name": "Fallin",
+      "rarity": "Legendary",
+      "releaseOrder": 38,
+      "releaseDate": null,
+      "role": "Watcher",
+      "roleIcon": "https://cdn.discordapp.com/emojis/1378196074556166257.png?size=128&quality=lossless",
+      "factions": [
+        {
+          "name": "Drifter",
+          "icon": "https://cdn.discordapp.com/emojis/1378183853130121346.png?size=128&quality=lossless"
+        },
+        {
+          "name": "Fortitude",
+          "icon": "https://cdn.discordapp.com/emojis/1378194533854220388.png?size=128&quality=lossless"
+        }
+      ],
+      "weaponType": "Staff",
+      "pixelArt": "https://raw.githubusercontent.com/camelot-x/unit-art-images/main/pixel-art/L/L/014.png",
+      "detailAvailable": true
+    },
+    {
+      "id": "LG010",
+      "slug": "rico",
+      "name": "Rico",
+      "rarity": "Legendary",
+      "releaseOrder": 39,
+      "releaseDate": null,
+      "role": "Defender",
+      "roleIcon": "https://cdn.discordapp.com/emojis/1378196077357826128.png?size=128&quality=lossless",
+      "factions": [
+        {
+          "name": "Drifter",
+          "icon": "https://cdn.discordapp.com/emojis/1378183853130121346.png?size=128&quality=lossless"
+        },
+        {
+          "name": "Aggression",
+          "icon": "https://cdn.discordapp.com/emojis/1378196259617247313.png?size=128&quality=lossless"
+        }
+      ],
+      "weaponType": "Axe",
+      "pixelArt": "https://raw.githubusercontent.com/camelot-x/unit-art-images/main/pixel-art/L/G/010.png",
+      "detailAvailable": true
+    },
+    {
+      "id": "LL015",
+      "slug": "credenza",
+      "name": "Credenza",
+      "rarity": "Legendary",
+      "releaseOrder": 40,
+      "releaseDate": null,
+      "role": "Watcher",
+      "roleIcon": "https://cdn.discordapp.com/emojis/1378196074556166257.png?size=128&quality=lossless",
+      "factions": [
+        {
+          "name": "Papal States",
+          "icon": "https://cdn.discordapp.com/emojis/1378183897229164544.png?size=128&quality=lossless"
+        },
+        {
+          "name": "Aggression",
+          "icon": "https://cdn.discordapp.com/emojis/1378196259617247313.png?size=128&quality=lossless"
+        }
+      ],
+      "weaponType": "Staff",
+      "pixelArt": "https://raw.githubusercontent.com/camelot-x/unit-art-images/main/pixel-art/L/L/015.png",
+      "detailAvailable": true
+    },
+    {
+      "id": "LD013",
+      "slug": "parsifal",
+      "name": "Parsifal",
+      "rarity": "Legendary",
+      "releaseOrder": 41,
+      "releaseDate": null,
+      "role": "Destroyer",
+      "roleIcon": "https://cdn.discordapp.com/emojis/1378196070214930462.png?size=128&quality=lossless",
+      "factions": [
+        {
+          "name": "The Union",
+          "icon": "https://cdn.discordapp.com/emojis/1378183953625776138.png?size=128&quality=lossless"
+        },
+        {
+          "name": "Drifter",
+          "icon": "https://cdn.discordapp.com/emojis/1378183853130121346.png?size=128&quality=lossless"
+        },
+        {
+          "name": "Alacrity",
+          "icon": "https://cdn.discordapp.com/emojis/1378195389684912218.png?size=128&quality=lossless"
+        }
+      ],
+      "weaponType": "Spear",
+      "pixelArt": "https://raw.githubusercontent.com/camelot-x/unit-art-images/main/pixel-art/L/D/013.png",
+      "detailAvailable": true
+    },
+    {
+      "id": "LL016",
+      "slug": "samantha-everglow",
+      "name": "Samantha - Everglow",
+      "rarity": "Legendary",
+      "releaseOrder": 42,
+      "releaseDate": null,
+      "role": "Watcher",
+      "roleIcon": "https://cdn.discordapp.com/emojis/1378196074556166257.png?size=128&quality=lossless",
+      "factions": [
+        {
+          "name": "Papal States",
+          "icon": "https://cdn.discordapp.com/emojis/1378183897229164544.png?size=128&quality=lossless"
+        },
+        {
+          "name": "Aggression",
+          "icon": "https://cdn.discordapp.com/emojis/1378196259617247313.png?size=128&quality=lossless"
+        }
+      ],
+      "weaponType": "Staff",
+      "pixelArt": "https://raw.githubusercontent.com/camelot-x/unit-art-images/main/pixel-art/L/L/016.png",
+      "detailAvailable": true
+    },
+    {
+      "id": "LB011",
+      "slug": "yserinde",
+      "name": "Yserinde",
+      "rarity": "Legendary",
+      "releaseOrder": 43,
+      "releaseDate": null,
+      "role": "Seeker",
+      "roleIcon": "https://cdn.discordapp.com/emojis/1378196062010867833.png?size=128&quality=lossless",
+      "factions": [
+        {
+          "name": "The Union",
+          "icon": "https://cdn.discordapp.com/emojis/1378183953625776138.png?size=128&quality=lossless"
+        },
+        {
+          "name": "Discipline",
+          "icon": "https://cdn.discordapp.com/emojis/1378192387297513524.png?size=128&quality=lossless"
+        }
+      ],
+      "weaponType": "Sword",
+      "pixelArt": "https://raw.githubusercontent.com/camelot-x/unit-art-images/main/pixel-art/L/B/011.png",
+      "detailAvailable": true
+    },
+    {
+      "id": "LL017",
+      "slug": "full-armored-maitha",
+      "name": "Full Armored Maitha",
+      "rarity": "Legendary",
+      "releaseOrder": 44,
+      "releaseDate": null,
+      "role": "Watcher",
+      "roleIcon": "https://cdn.discordapp.com/emojis/1378196074556166257.png?size=128&quality=lossless",
+      "factions": [
+        {
+          "name": "Sword of Convallaria",
+          "icon": "https://cdn.discordapp.com/emojis/1378196243611783168.png?size=128&quality=lossless"
+        },
+        {
+          "name": "Iria",
+          "icon": "https://cdn.discordapp.com/emojis/1292007418506510378.png?size=128&quality=lossless"
+        },
+        {
+          "name": "Fortitude",
+          "icon": "https://cdn.discordapp.com/emojis/1378194533854220388.png?size=128&quality=lossless"
+        }
+      ],
+      "weaponType": "Axe",
+      "pixelArt": "https://raw.githubusercontent.com/camelot-x/unit-art-images/main/pixel-art/L/L/017.png",
+      "detailAvailable": true
+    },
+    {
+      "id": "LR010",
+      "slug": "camelot",
+      "name": "Camelot",
+      "rarity": "Legendary",
+      "releaseOrder": 45,
+      "releaseDate": null,
+      "role": "Breaker",
+      "roleIcon": "https://cdn.discordapp.com/emojis/1378196065924419634.png?size=128&quality=lossless",
+      "factions": [
+        {
+          "name": "The Union",
+          "icon": "https://cdn.discordapp.com/emojis/1378183953625776138.png?size=128&quality=lossless"
+        },
+        {
+          "name": "Fortitude",
+          "icon": "https://cdn.discordapp.com/emojis/1378194533854220388.png?size=128&quality=lossless"
+        }
+      ],
+      "weaponType": "Axe",
+      "pixelArt": "https://raw.githubusercontent.com/camelot-x/unit-art-images/main/pixel-art/L/R/010.png",
+      "detailAvailable": true
+    }
+  ]
+}

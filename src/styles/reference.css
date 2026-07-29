@@ -1,0 +1,1134 @@
+.page-reference {
+  --reference-ink: #3d372e;
+  --reference-muted: #746c60;
+  --reference-navy: #36425d;
+  --reference-navy-deep: #29344d;
+  --reference-gold: #c8aa57;
+  --reference-paper: rgba(251, 248, 238, .94);
+  min-height: 100%;
+  color: var(--reference-ink);
+  background: #ece8dc;
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+.page-reference *, .page-reference *::before, .page-reference *::after { box-sizing: border-box; }
+.page-reference button { color: inherit; font: inherit; }
+
+.page-reference .reference-screen {
+  position: relative;
+  min-height: 100vh;
+  padding: 0 clamp(18px, 4vw, 66px) 64px;
+  isolation: isolate;
+}
+
+.page-reference .reference-background {
+  position: fixed;
+  inset: 0;
+  z-index: -2;
+  background:
+    radial-gradient(circle at 50% 7%, rgba(255,255,255,.92), transparent 38%),
+    linear-gradient(rgba(249,247,238,.95), rgba(239,235,222,.97)),
+    repeating-linear-gradient(0deg, transparent 0 44px, rgba(91,76,53,.025) 45px 46px),
+    repeating-linear-gradient(90deg, transparent 0 126px, rgba(91,76,53,.02) 127px 128px);
+}
+
+.page-reference .reference-background::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(ellipse at 10% 86%, rgba(157,132,88,.14), transparent 25%),
+    radial-gradient(ellipse at 92% 13%, rgba(88,103,135,.11), transparent 24%);
+}
+
+.page-reference .reference-title-band {
+  width: min(880px, calc(100% + clamp(18px, 4vw, 66px)));
+  min-height: 82px;
+  margin-left: calc(-1 * clamp(18px, 4vw, 66px));
+  padding: 12px 76px 12px clamp(24px, 5vw, 78px);
+  display: flex;
+  align-items: center;
+  color: #fff8df;
+  background: linear-gradient(135deg, rgba(68,84,113,.99), rgba(42,53,77,.99));
+  clip-path: polygon(0 0, 100% 0, calc(100% - 58px) 100%, 0 100%);
+  box-shadow: 0 5px 14px rgba(43,49,62,.18);
+}
+
+.page-reference .reference-title-band p {
+  margin: 0 0 4px;
+  color: #dbc77f;
+  font: 700 10px/1.1 "Libre Baskerville", Georgia, serif;
+  letter-spacing: .16em;
+  text-transform: uppercase;
+}
+
+.page-reference .reference-title-band h1 {
+  margin: 0;
+  font: 700 clamp(28px, 3.5vw, 48px)/1 "Cinzel", Georgia, serif;
+  letter-spacing: -.025em;
+  text-shadow: 0 2px 2px rgba(0,0,0,.25);
+}
+
+.page-reference .page-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 14px 0 0;
+}
+
+.page-reference .page-tab {
+  min-height: 38px;
+  padding: 8px 16px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: #4c453a;
+  border: 1px solid rgba(86,72,50,.25);
+  border-radius: 5px 13px 5px 13px;
+  background: rgba(255,252,242,.84);
+  text-decoration: none;
+  font: 700 12px/1 "Libre Baskerville", Georgia, serif;
+  box-shadow: inset 0 1px rgba(255,255,255,.9);
+}
+
+.page-reference .page-tab:hover,
+.page-reference .page-tab:focus-visible { border-color: #9d8a51; outline: none; }
+.page-reference .page-tab[aria-current="page"] {
+  color: #fff7da;
+  border-color: var(--reference-navy-deep);
+  background: linear-gradient(135deg, #465570, var(--reference-navy-deep));
+}
+.page-reference .page-tab-symbol { color: var(--reference-gold); font-size: 16px; }
+
+.page-reference .panel-paper {
+  border: 1px solid rgba(91,76,53,.23);
+  border-radius: 7px 20px 7px 20px;
+  background: var(--reference-paper);
+  box-shadow: 0 14px 34px rgba(64,55,42,.11), inset 0 1px rgba(255,255,255,.9);
+}
+
+.page-reference .reference-intro {
+  margin: 22px 0 28px;
+  padding: clamp(18px, 3vw, 30px);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.page-reference .reference-kicker,
+.page-reference .reference-section-heading span {
+  color: #8c7135;
+  font: 700 10px/1.2 "Libre Baskerville", Georgia, serif;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+}
+
+.page-reference .reference-intro h2,
+.page-reference .reference-section-heading h2 {
+  margin: 5px 0 7px;
+  font: 700 clamp(24px, 3vw, 38px)/1.08 "Cinzel", Georgia, serif;
+}
+
+.page-reference .reference-intro p {
+  max-width: 720px;
+  margin: 0;
+  color: var(--reference-muted);
+  font-size: 15px;
+  line-height: 1.65;
+}
+
+.page-reference .reference-section-switch {
+  flex: 0 0 auto;
+  display: flex;
+  gap: 8px;
+  padding: 6px;
+  border: 1px solid rgba(86,72,50,.2);
+  border-radius: 6px 16px 6px 16px;
+  background: rgba(236,230,214,.72);
+}
+
+.page-reference .reference-section-switch button {
+  min-height: 42px;
+  padding: 8px 15px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  border: 1px solid transparent;
+  border-radius: 5px 12px 5px 12px;
+  background: transparent;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.page-reference .reference-section-switch button.active {
+  color: #fff8df;
+  border-color: #27344d;
+  background: linear-gradient(135deg, #465570, #29344d);
+  box-shadow: 0 5px 12px rgba(42,53,77,.18);
+}
+
+.page-reference .reference-section-heading {
+  margin-bottom: 14px;
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 18px;
+}
+.page-reference .reference-section-heading h2 { font-size: clamp(24px, 2.7vw, 34px); }
+.page-reference .reference-section-heading p {
+  margin: 0 0 7px;
+  color: var(--reference-muted);
+  font-size: 12px;
+}
+
+.page-reference .faq-list { display: grid; gap: 10px; }
+.page-reference .faq-item {
+  overflow: hidden;
+  border: 1px solid rgba(91,76,53,.22);
+  border-radius: 6px 16px 6px 16px;
+  background: rgba(252,249,240,.94);
+  box-shadow: 0 8px 20px rgba(65,56,43,.07), inset 0 1px rgba(255,255,255,.85);
+}
+
+.page-reference .faq-item summary {
+  min-height: 62px;
+  padding: 13px 18px;
+  display: grid;
+  grid-template-columns: 42px minmax(0, 1fr) 28px;
+  gap: 12px;
+  align-items: center;
+  cursor: pointer;
+  list-style: none;
+}
+.page-reference .faq-item summary::-webkit-details-marker { display: none; }
+.page-reference .faq-item[open] summary {
+  border-bottom: 1px solid rgba(91,76,53,.18);
+  background: linear-gradient(90deg, rgba(229,207,137,.42), rgba(250,246,232,.74));
+}
+.page-reference .faq-index {
+  color: #9a7d38;
+  font: 700 13px/1 "Libre Baskerville", Georgia, serif;
+  letter-spacing: .08em;
+}
+.page-reference .faq-item summary strong { font-size: 16px; }
+.page-reference .faq-toggle {
+  width: 28px;
+  height: 28px;
+  display: grid;
+  place-items: center;
+  color: #7d6632;
+  border: 1px solid rgba(126,102,50,.32);
+  border-radius: 50%;
+  font-size: 20px;
+  line-height: 1;
+  transition: transform .18s ease;
+}
+.page-reference .faq-item[open] .faq-toggle { transform: rotate(45deg); }
+.page-reference .faq-answer { padding: 16px 58px 18px 72px; }
+.page-reference .faq-answer p { margin: 0; color: #5f574d; line-height: 1.65; }
+
+.page-reference .lore-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1.45fr) minmax(300px, .7fr);
+  gap: 18px;
+  align-items: start;
+}
+
+.page-reference .timeline-panel {
+  position: relative;
+  min-height: 430px;
+  padding: clamp(24px, 4vw, 46px);
+  overflow: hidden;
+}
+.page-reference .timeline-axis {
+  position: absolute;
+  top: 42px;
+  bottom: 42px;
+  left: clamp(42px, 6vw, 74px);
+  width: 2px;
+  background: linear-gradient(#d1b45c, rgba(75,86,112,.45), rgba(209,180,92,.15));
+}
+.page-reference .timeline-empty-entry {
+  position: relative;
+  min-height: 210px;
+  padding-left: clamp(54px, 7vw, 88px);
+  display: flex;
+  align-items: center;
+}
+.page-reference .timeline-marker {
+  position: absolute;
+  left: calc(clamp(42px, 6vw, 74px) - 17px);
+  top: 50%;
+  width: 36px;
+  height: 36px;
+  display: grid;
+  place-items: center;
+  transform: translateY(-50%);
+  color: #fff4c9;
+  border: 2px solid #d0b25a;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #465570, #29344d);
+  box-shadow: 0 0 0 7px rgba(209,180,92,.14);
+}
+.page-reference .timeline-entry-copy {
+  width: min(660px, 100%);
+  padding: 22px;
+  border: 1px solid rgba(91,76,53,.2);
+  border-radius: 6px 18px 6px 18px;
+  background: rgba(255,253,246,.84);
+}
+.page-reference .timeline-era {
+  color: #97792f;
+  font: 700 10px/1.2 "Libre Baskerville", Georgia, serif;
+  letter-spacing: .13em;
+  text-transform: uppercase;
+}
+.page-reference .timeline-entry-copy h3,
+.page-reference .timeline-plan h3 {
+  margin: 7px 0 9px;
+  font: 700 22px/1.15 "Cinzel", Georgia, serif;
+}
+.page-reference .timeline-entry-copy p { margin: 0; color: var(--reference-muted); line-height: 1.65; }
+
+.page-reference .timeline-plan { padding: 24px; }
+.page-reference .timeline-plan dl { margin: 18px 0 0; display: grid; gap: 9px; }
+.page-reference .timeline-plan dl > div {
+  padding: 12px 13px;
+  display: grid;
+  grid-template-columns: 76px minmax(0, 1fr);
+  gap: 10px;
+  border: 1px solid rgba(91,76,53,.16);
+  border-radius: 5px 12px 5px 12px;
+  background: rgba(255,253,246,.7);
+}
+.page-reference .timeline-plan dt { color: #7f6730; font-weight: 700; }
+.page-reference .timeline-plan dd { margin: 0; color: var(--reference-muted); line-height: 1.45; }
+
+@media (max-width: 900px) {
+  .page-reference .reference-intro { align-items: stretch; flex-direction: column; }
+  .page-reference .reference-section-switch { align-self: flex-start; }
+  .page-reference .lore-layout { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 620px) {
+  .page-reference .reference-screen { padding-inline: 12px; }
+  .page-reference .reference-title-band { width: calc(100% + 12px); margin-left: -12px; padding-left: 18px; }
+  .page-reference .reference-section-switch { width: 100%; }
+  .page-reference .reference-section-switch button { flex: 1; justify-content: center; }
+  .page-reference .reference-section-heading { align-items: start; flex-direction: column; gap: 0; }
+  .page-reference .faq-item summary { grid-template-columns: 32px minmax(0, 1fr) 28px; padding-inline: 12px; }
+  .page-reference .faq-answer { padding: 14px 16px 17px 56px; }
+  .page-reference .timeline-panel { min-height: 360px; padding-inline: 18px; }
+  .page-reference .timeline-axis { left: 30px; }
+  .page-reference .timeline-marker { left: 13px; }
+  .page-reference .timeline-empty-entry { padding-left: 42px; }
+  .page-reference .timeline-plan dl > div { grid-template-columns: 1fr; gap: 4px; }
+}
+
+
+/* Lore archive ----------------------------------------------------------- */
+.page-reference .lore-screen {
+  padding-bottom: 84px;
+}
+
+.page-reference .lore-title-band {
+  width: min(960px, calc(100% + clamp(18px, 4vw, 66px)));
+}
+
+.page-reference .lore-intro {
+  align-items: stretch;
+}
+
+.page-reference .lore-intro > div {
+  min-width: 0;
+  flex: 1 1 auto;
+}
+
+.page-reference .lore-era-seal {
+  flex: 0 0 270px;
+  min-height: 120px;
+  padding: 18px 20px;
+  display: grid;
+  align-content: center;
+  justify-items: start;
+  border: 1px solid rgba(78, 70, 56, .22);
+  border-radius: 7px 20px 7px 20px;
+  background: linear-gradient(135deg, rgba(56, 67, 91, .96), rgba(38, 48, 70, .98));
+  color: #fff7d8;
+  box-shadow: inset 0 1px rgba(255, 255, 255, .12), 0 10px 22px rgba(39, 47, 64, .14);
+}
+
+.page-reference .lore-era-seal span {
+  color: #d3bd76;
+  font: 700 9px/1.2 "Libre Baskerville", Georgia, serif;
+  letter-spacing: .15em;
+  text-transform: uppercase;
+}
+
+.page-reference .lore-era-seal strong {
+  margin-top: 7px;
+  font: 700 21px/1.08 "Cinzel", Georgia, serif;
+}
+
+.page-reference .lore-era-seal small {
+  margin-top: 8px;
+  color: rgba(255, 248, 223, .78);
+  font-size: 11px;
+  line-height: 1.45;
+}
+
+/* World map */
+.page-reference .lore-world-map {
+  margin: 0 0 28px;
+  padding: clamp(18px, 3vw, 28px);
+}
+
+.page-reference .lore-world-map > header {
+  margin-bottom: 15px;
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.page-reference .lore-world-map > header > div {
+  min-width: 0;
+}
+
+.page-reference .lore-world-map h2 {
+  margin: 5px 0 6px;
+  font: 700 clamp(24px, 3vw, 36px)/1.08 "Cinzel", Georgia, serif;
+}
+
+.page-reference .lore-world-map header p {
+  max-width: 760px;
+  margin: 0;
+  color: var(--reference-muted);
+  font-size: 13px;
+  line-height: 1.55;
+}
+
+.page-reference .world-map-expand {
+  flex: 0 0 auto;
+  min-height: 39px;
+  padding: 8px 15px;
+  color: #fff7d8;
+  border: 1px solid #27344d;
+  border-radius: 5px 12px 5px 12px;
+  background: linear-gradient(135deg, #465570, #29344d);
+  cursor: pointer;
+  font: 700 10px/1 "Libre Baskerville", Georgia, serif;
+  letter-spacing: .04em;
+  text-transform: uppercase;
+}
+
+.page-reference .world-map-expand:hover,
+.page-reference .world-map-expand:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(185, 149, 72, .18);
+}
+
+.page-reference .world-map-frame {
+  position: relative;
+  width: 100%;
+  min-height: 250px;
+  padding: 0;
+  overflow: hidden;
+  display: block;
+  border: 1px solid rgba(76, 67, 54, .27);
+  border-radius: 7px 18px 7px 18px;
+  background: #1f2a35;
+  cursor: zoom-in;
+  box-shadow: inset 0 1px rgba(255, 255, 255, .18), 0 12px 28px rgba(44, 48, 52, .14);
+}
+
+.page-reference .world-map-frame img,
+.page-reference .world-map-frame .symbol-fallback {
+  width: 100%;
+  height: auto;
+  min-height: 250px;
+  max-height: 560px;
+  display: block;
+  object-fit: contain;
+  background: #202d38;
+}
+
+.page-reference .world-map-frame > span:not(.symbol-fallback) {
+  position: absolute;
+  right: 14px;
+  bottom: 12px;
+  padding: 7px 10px;
+  color: #fff7da;
+  border: 1px solid rgba(227, 201, 122, .55);
+  border-radius: 999px;
+  background: rgba(33, 43, 57, .84);
+  font: 700 9px/1 "Libre Baskerville", Georgia, serif;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  backdrop-filter: blur(6px);
+}
+
+.page-reference .world-map-regions {
+  margin-top: 12px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 8px;
+}
+
+.page-reference .world-map-region {
+  min-width: 0;
+  padding: 9px 10px;
+  display: grid;
+  grid-template-columns: 34px minmax(0, 1fr);
+  gap: 9px;
+  align-items: center;
+  color: #4d463c;
+  border: 1px solid rgba(82, 71, 54, .16);
+  border-radius: 5px 12px 5px 12px;
+  background: rgba(255, 253, 246, .74);
+  text-decoration: none;
+}
+
+.page-reference a.world-map-region:hover,
+.page-reference a.world-map-region:focus-visible {
+  border-color: #927a3d;
+  outline: none;
+  background: #fffdf5;
+}
+
+.page-reference .world-map-region-icon {
+  width: 34px;
+  height: 34px;
+  display: grid;
+  place-items: center;
+  color: #fff7d8;
+  border: 1px solid rgba(185, 149, 72, .48);
+  border-radius: 5px 11px 5px 11px;
+  background: linear-gradient(135deg, #465570, #29344d);
+  font-size: 17px;
+}
+
+.page-reference .world-map-region-icon img,
+.page-reference .world-map-region-icon .symbol-fallback {
+  width: 25px;
+  height: 25px;
+  object-fit: contain;
+}
+
+.page-reference .world-map-region > span:last-child {
+  min-width: 0;
+  display: grid;
+  gap: 2px;
+}
+
+.page-reference .world-map-region small {
+  color: #9a7a32;
+  font: 700 7px/1.2 "Libre Baskerville", Georgia, serif;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+}
+
+.page-reference .world-map-region strong {
+  font-size: 12px;
+}
+
+.page-reference .world-map-region em {
+  overflow: hidden;
+  color: #756c5f;
+  font-size: 9px;
+  font-style: normal;
+  line-height: 1.35;
+  text-overflow: ellipsis;
+}
+
+.page-reference dialog.lore-world-map-modal {
+  width: min(96vw, 1440px);
+  max-width: min(96vw, 1440px);
+  height: min(94vh, 980px);
+  max-height: min(94vh, 980px);
+}
+
+.page-reference .lore-world-map-modal .modal-shell,
+.page-reference .lore-world-map-modal .modal-body {
+  min-width: 0;
+  min-height: 0;
+}
+
+.page-reference .lore-world-map-modal .modal-body {
+  padding: 0;
+  overflow: auto;
+}
+
+.page-reference .lore-world-map-modal-body {
+  min-height: 100%;
+  padding: 18px;
+  display: grid;
+  align-content: start;
+  gap: 12px;
+  background: #172332;
+}
+
+.page-reference .lore-world-map-modal-body img,
+.page-reference .lore-world-map-modal-body .symbol-fallback {
+  width: 100%;
+  height: auto;
+  max-height: calc(94vh - 160px);
+  display: block;
+  object-fit: contain;
+  border: 1px solid rgba(226, 199, 115, .28);
+  border-radius: 7px 18px 7px 18px;
+  background: #202d38;
+}
+
+.page-reference .lore-world-map-modal-body p {
+  margin: 0;
+  color: rgba(255, 248, 223, .76);
+  font-size: 11px;
+  line-height: 1.55;
+}
+
+/* Chronology overview */
+.page-reference .lore-overview {
+  margin-bottom: 30px;
+  padding: clamp(18px, 2.8vw, 30px);
+  display: grid;
+  gap: 20px;
+}
+
+.page-reference .lore-map-strip + .lore-map-strip {
+  padding-top: 20px;
+  border-top: 1px solid rgba(91, 76, 53, .16);
+}
+
+.page-reference .lore-map-strip > header {
+  margin-bottom: 8px;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 14px;
+}
+
+.page-reference .lore-map-strip > header span {
+  color: #93742e;
+  font: 700 9px/1.2 "Libre Baskerville", Georgia, serif;
+  letter-spacing: .13em;
+  text-transform: uppercase;
+}
+
+.page-reference .lore-map-strip > header h3 {
+  margin: 0;
+  font: 700 clamp(18px, 2vw, 24px)/1.1 "Cinzel", Georgia, serif;
+}
+
+.page-reference .lore-map-scroll {
+  width: 100%;
+  overflow-x: auto;
+  overscroll-behavior-inline: contain;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(74, 82, 105, .55) rgba(92, 76, 50, .08);
+}
+
+.page-reference .lore-map {
+  width: max(100%, 980px);
+  min-width: 980px;
+  height: auto;
+  display: block;
+}
+
+.page-reference .lore-map-axis {
+  stroke: #a94b49;
+  stroke-width: 4;
+  stroke-linecap: round;
+}
+
+.page-reference .lore-map-tick line {
+  stroke: rgba(72, 65, 56, .46);
+  stroke-width: 1;
+}
+
+.page-reference .lore-map-tick text {
+  fill: #716a5f;
+  font: 11px Georgia, serif;
+}
+
+.page-reference .lore-map-event {
+  cursor: pointer;
+  outline: none;
+}
+
+.page-reference .lore-map-event path {
+  fill: none;
+  stroke-width: 2.5;
+  stroke-linecap: round;
+  opacity: .9;
+  transition: stroke-width .15s ease, opacity .15s ease;
+}
+
+.page-reference .lore-map-event circle {
+  stroke: rgba(255, 251, 235, .95);
+  stroke-width: 2;
+  filter: drop-shadow(0 2px 2px rgba(57, 51, 43, .22));
+  transition: r .15s ease;
+}
+
+.page-reference .lore-map-event:hover path,
+.page-reference .lore-map-event:focus path {
+  stroke-width: 4;
+  opacity: 1;
+}
+
+.page-reference .lore-map-event:hover circle,
+.page-reference .lore-map-event:focus circle {
+  r: 13px;
+}
+
+.page-reference .lore-map-number {
+  fill: #fffdf3;
+  font: 700 9px Georgia, serif;
+  pointer-events: none;
+}
+
+.page-reference .lore-map-key {
+  margin-top: 4px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(174px, 1fr));
+  gap: 7px;
+}
+
+.page-reference .lore-map-key > button {
+  width: 100%;
+  min-width: 0;
+  appearance: none;
+  cursor: pointer;
+  text-align: left;
+  font: inherit;
+  padding: 8px 10px;
+  display: grid;
+  grid-template-columns: 28px minmax(0, 1fr);
+  gap: 9px;
+  align-items: center;
+  color: var(--reference-ink);
+  border: 1px solid rgba(86, 72, 50, .14);
+  border-left: 3px solid var(--event-accent);
+  border-radius: 4px 10px 4px 10px;
+  background: rgba(255, 253, 246, .7);
+}
+
+.page-reference .lore-map-key > button:hover,
+.page-reference .lore-map-key > button:focus-visible {
+  border-color: var(--event-accent);
+  outline: none;
+  background: rgba(255, 253, 246, .98);
+}
+
+.page-reference .lore-map-key > button > span {
+  width: 26px;
+  height: 26px;
+  display: grid;
+  place-items: center;
+  color: #fffdf3;
+  border-radius: 50%;
+  background: var(--event-accent);
+  font: 700 9px/1 "Libre Baskerville", Georgia, serif;
+}
+
+.page-reference .lore-map-key div {
+  min-width: 0;
+  display: grid;
+  gap: 2px;
+}
+
+.page-reference .lore-map-key small {
+  color: #8a7a5a;
+  font: 700 8px/1.2 "Libre Baskerville", Georgia, serif;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+}
+
+.page-reference .lore-map-key strong {
+  overflow: hidden;
+  font-size: 12px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* Timeline cards */
+.page-reference .lore-archive-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(270px, 330px);
+  gap: 20px;
+  align-items: start;
+}
+
+.page-reference .lore-event-column,
+.page-reference .lore-side-column {
+  min-width: 0;
+}
+
+.page-reference .lore-event-list {
+  position: relative;
+  display: grid;
+  gap: 12px;
+}
+
+.page-reference .lore-event-list::before {
+  content: "";
+  position: absolute;
+  top: 8px;
+  bottom: 8px;
+  left: 106px;
+  width: 2px;
+  background: linear-gradient(rgba(94, 107, 137, .1), rgba(194, 92, 91, .7) 5%, rgba(194, 92, 91, .7) 95%, rgba(94, 107, 137, .1));
+}
+
+.page-reference .lore-event-card {
+  position: relative;
+  scroll-margin-top: 20px;
+  display: grid;
+  grid-template-columns: 108px minmax(0, 1fr);
+  gap: 18px;
+}
+
+.page-reference .lore-event-date {
+  position: relative;
+  padding-top: 17px;
+  display: grid;
+  align-content: start;
+  justify-items: end;
+  gap: 7px;
+  text-align: right;
+}
+
+.page-reference .lore-event-date::after {
+  content: "";
+  position: absolute;
+  top: 20px;
+  right: -6px;
+  width: 13px;
+  height: 13px;
+  border: 3px solid #f4efe1;
+  border-radius: 50%;
+  background: var(--event-accent);
+  box-shadow: 0 0 0 1px rgba(66, 59, 49, .26), 0 2px 5px rgba(66, 59, 49, .16);
+}
+
+.page-reference .lore-event-date span {
+  margin-right: 16px;
+  color: var(--event-accent);
+  font: 700 9px/1 "Libre Baskerville", Georgia, serif;
+  letter-spacing: .12em;
+}
+
+.page-reference .lore-event-date strong {
+  max-width: 92px;
+  margin-right: 16px;
+  color: #51493d;
+  font: 700 12px/1.25 "Cinzel", Georgia, serif;
+}
+
+.page-reference .lore-event-body {
+  overflow: hidden;
+  border: 1px solid rgba(81, 70, 53, .2);
+  border-left: 5px solid var(--event-accent);
+  border-radius: 7px 20px 7px 20px;
+  background: linear-gradient(135deg, rgba(255, 253, 245, .95), rgba(247, 242, 228, .9));
+  box-shadow: 0 10px 24px rgba(65, 56, 43, .08), inset 0 1px rgba(255, 255, 255, .86);
+}
+
+.page-reference .lore-event-card.is-milestone .lore-event-body {
+  background: linear-gradient(135deg, rgba(249, 247, 238, .93), rgba(239, 235, 223, .86));
+}
+
+.page-reference .lore-event-body > header {
+  padding: 15px 17px 13px;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  gap: 14px;
+  border-bottom: 1px solid rgba(81, 70, 53, .13);
+  background: linear-gradient(90deg, color-mix(in srgb, var(--event-accent) 18%, transparent), transparent 70%);
+}
+
+.page-reference .lore-event-body h3 {
+  margin: 0;
+  font: 700 clamp(18px, 2vw, 24px)/1.12 "Cinzel", Georgia, serif;
+}
+
+.page-reference .lore-event-body header p {
+  margin: 4px 0 0;
+  color: #716757;
+  font: 700 12px/1.3 "Libre Baskerville", Georgia, serif;
+}
+
+.page-reference .lore-milestone-label {
+  flex: 0 0 auto;
+  padding: 5px 8px;
+  color: #776a54;
+  border: 1px solid rgba(84, 74, 59, .16);
+  border-radius: 999px;
+  background: rgba(255, 253, 246, .74);
+  font: 700 8px/1 "Libre Baskerville", Georgia, serif;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+
+.page-reference .lore-event-copy {
+  padding: 15px 17px 4px;
+}
+
+.page-reference .lore-event-copy p {
+  margin: 0 0 10px;
+  color: #514b43;
+  font-size: 14px;
+  line-height: 1.62;
+}
+
+.page-reference .lore-detail-line {
+  position: relative;
+  margin: 4px 17px 14px;
+  padding: 0;
+  display: grid;
+  gap: 0;
+  list-style: none;
+  border: 1px solid rgba(80, 70, 55, .13);
+  border-radius: 6px 15px 6px 15px;
+  background: rgba(242, 236, 220, .56);
+}
+
+.page-reference .lore-detail-line::before {
+  content: "";
+  position: absolute;
+  top: 24px;
+  bottom: 24px;
+  left: 28px;
+  width: 2px;
+  background: linear-gradient(var(--event-accent), color-mix(in srgb, var(--event-accent) 32%, transparent));
+}
+
+.page-reference .lore-detail-line li {
+  position: relative;
+  min-width: 0;
+  padding: 11px 13px 11px 54px;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+}
+
+.page-reference .lore-detail-line li + li {
+  border-top: 1px solid rgba(80, 70, 55, .11);
+}
+
+.page-reference .lore-detail-marker {
+  position: absolute;
+  top: 14px;
+  left: 17px;
+  z-index: 1;
+  width: 23px;
+  height: 23px;
+  display: grid;
+  place-items: center;
+  color: #fffdf4;
+  border: 2px solid #f7f1df;
+  border-radius: 50%;
+  background: var(--event-accent);
+  box-shadow: 0 0 0 1px color-mix(in srgb, var(--event-accent) 65%, #5b5040);
+  font: 700 7px/1 "Libre Baskerville", Georgia, serif;
+}
+
+.page-reference .lore-detail-line li > div {
+  min-width: 0;
+  display: grid;
+  gap: 3px;
+}
+
+.page-reference .lore-detail-line small {
+  color: var(--event-accent);
+  font: 700 8px/1.2 "Libre Baskerville", Georgia, serif;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+
+.page-reference .lore-detail-line strong {
+  color: #4f473b;
+  font-size: 12px;
+}
+
+.page-reference .lore-detail-line p {
+  margin: 0;
+  color: #6b6255;
+  font-size: 11px;
+  line-height: 1.5;
+}
+
+.page-reference .lore-relations {
+  padding: 4px 17px 14px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.page-reference .lore-relation {
+  min-height: 29px;
+  padding: 4px 8px 4px 6px;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: #4f493f;
+  border: 1px solid rgba(80, 70, 55, .18);
+  border-radius: 5px 11px 5px 11px;
+  background: rgba(255, 253, 246, .76);
+  text-decoration: none;
+  font-size: 10px;
+}
+
+.page-reference a.lore-relation:hover,
+.page-reference a.lore-relation:focus-visible {
+  color: #2d3650;
+  border-color: #85723c;
+  outline: none;
+  background: #fffdf5;
+}
+
+.page-reference .lore-relation img,
+.page-reference .lore-relation .symbol-fallback {
+  width: 22px;
+  height: 22px;
+  flex: 0 0 22px;
+  object-fit: contain;
+}
+
+.page-reference .lore-relation-type {
+  color: #9b8250;
+  font: 700 7px/1 "Libre Baskerville", Georgia, serif;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+}
+
+.page-reference .lore-relation strong {
+  font-size: 10px;
+}
+
+.page-reference .lore-relation-character { border-color: rgba(80, 91, 126, .3); }
+.page-reference .lore-relation-faction { border-color: rgba(185, 149, 72, .36); }
+.page-reference .lore-relation-location { border-color: rgba(93, 139, 111, .28); }
+.page-reference .lore-relation-resource { border-color: rgba(92, 142, 183, .34); }
+
+.page-reference .lore-side-column {
+  position: sticky;
+  top: 18px;
+  display: grid;
+  gap: 14px;
+}
+
+.page-reference .lore-side-column .timeline-plan {
+  padding: 20px;
+}
+
+.page-reference .lore-side-column .timeline-plan > p {
+  margin: 8px 0 0;
+  color: var(--reference-muted);
+  font-size: 12px;
+  line-height: 1.55;
+}
+
+.page-reference .lore-structure-guide dl > div,
+.page-reference .lore-link-guide dl > div {
+  grid-template-columns: 66px minmax(0, 1fr);
+}
+
+@media (max-width: 1020px) {
+  .page-reference .lore-archive-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .page-reference .lore-side-column {
+    position: static;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 720px) {
+  .page-reference .lore-era-seal {
+    flex-basis: auto;
+    width: 100%;
+    min-height: 96px;
+  }
+
+  .page-reference .lore-world-map > header {
+    align-items: start;
+    flex-direction: column;
+  }
+
+  .page-reference .world-map-expand {
+    align-self: stretch;
+  }
+
+  .page-reference .world-map-regions {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .page-reference .lore-map-strip > header {
+    align-items: start;
+    flex-direction: column;
+    gap: 3px;
+  }
+
+  .page-reference .lore-map-key {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .page-reference .lore-event-list::before {
+    left: 13px;
+  }
+
+  .page-reference .lore-event-card {
+    grid-template-columns: 1fr;
+    gap: 6px;
+    padding-left: 28px;
+  }
+
+  .page-reference .lore-event-date {
+    padding-top: 0;
+    display: flex;
+    align-items: center;
+    justify-items: start;
+    gap: 8px;
+    text-align: left;
+  }
+
+  .page-reference .lore-event-date::after {
+    top: 3px;
+    left: -21px;
+    right: auto;
+  }
+
+  .page-reference .lore-event-date span,
+  .page-reference .lore-event-date strong {
+    max-width: none;
+    margin-right: 0;
+  }
+
+  .page-reference .lore-side-column {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 500px) {
+  .page-reference .world-map-regions,
+  .page-reference .lore-map-key {
+    grid-template-columns: 1fr;
+  }
+
+  .page-reference .lore-event-body > header {
+    align-items: start;
+    flex-direction: column;
+  }
+
+  .page-reference .lore-detail-line {
+    margin-inline: 10px;
+  }
+
+  .page-reference .lore-relations {
+    padding-inline: 10px;
+  }
+}
