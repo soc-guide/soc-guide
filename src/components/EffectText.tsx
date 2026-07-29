@@ -1,5 +1,6 @@
 import {
   createContext,
+  type MouseEvent,
   type PointerEvent,
   type ReactNode,
   useContext,
@@ -39,7 +40,7 @@ interface TooltipState {
 
 interface TooltipContextValue {
   tooltip: TooltipState | null;
-  show: (definition: Definition, event: PointerEvent<HTMLElement>, pinned?: boolean) => void;
+  show: (definition: Definition, event: PointerEvent<HTMLElement> | MouseEvent<HTMLElement>, pinned?: boolean) => void;
   move: (event: PointerEvent<HTMLElement>) => void;
   hide: (force?: boolean) => void;
 }
@@ -49,7 +50,7 @@ const TooltipContext = createContext<TooltipContextValue | null>(null);
 export function EffectTooltipProvider({ children }: { children: ReactNode }) {
   const [tooltip, setTooltip] = useState<TooltipState | null>(null);
 
-  const show = (definition: Definition, event: PointerEvent<HTMLElement>, pinned = false) => {
+  const show = (definition: Definition, event: PointerEvent<HTMLElement> | MouseEvent<HTMLElement>, pinned = false) => {
     setTooltip({ name: definition.name, detail: definition.detail, x: event.clientX, y: event.clientY, pinned });
   };
   const move = (event: PointerEvent<HTMLElement>) => {

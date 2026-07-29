@@ -48,7 +48,7 @@ export function ReferencePage() {
         </div>
       </header>
 
-      <Navigation current="reference" />
+      <Navigation current={section} />
 
       <section className="reference-intro panel-paper">
         <div>
